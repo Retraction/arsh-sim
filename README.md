@@ -8,6 +8,6 @@ Enjoy!
 
 Grinsanity's repository can be found over at [github.com/Grinsanity](https://github.com/Grinsanity), but there isn't really anything there.
 
-If you want to play the game [BETA] you can find it at [this link](http://jsfiddle.net/Grinsanity/6Ltqyt27/1/).
+If you want to play the game [BETA] you can find it at [http://jsfiddle.net/Grinsanity/6Ltqyt27/1/](http://jsfiddle.net/Grinsanity/6Ltqyt27/1/).
 
-P.S: This is both me and grinsanity's first big projects, so if you find any errors do let us know.
+P.S. This is both me and Grinsanity's first large projects, so if we're doing something wrong, feel free to help us out.
