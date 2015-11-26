@@ -8,13 +8,13 @@ alert("The point of this game is to get through life without failing.");
         alert("You finish breakfast and go back upstairs to brush again.");
         alert("You walk outside and wait about 5 minutes.");
         alert("The bus arrives.");
-        alert("You are at school. It was a boring bus ride but you smelt a cow take a poop on the way.");
-        alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods ar math! Your favourie subject.");
+        alert("You are at school. It was a boring bus ride.");
+        alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math! Your favourie subject.");
         alert("You easily finish the math and do some work on your laptop.");
         alert("RING RING RING!");
         alert("Second period, gym!");
         alert("You walk inside the boys changeroom and quickly get dressed for gym.");
-        alert("\"LET'S GET INTO A LINE ON THE WALL! WER'E DOING OUR WARMUP!\" says the gym teacher.");
+        alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
         alert("During the warmup, do you...");
         var cheat1 = prompt("[Skip a few laps] or [do it all]?").toLowerCase();
         if (cheat1 === "do it all") {
@@ -69,7 +69,35 @@ alert("The point of this game is to get through life without failing.");
                         alert("As you get to school, the bell rings. Made it just in time!");
                         alert("Walking into homeroom, you look around at the assortment of colors and unique costumes.");
                         alert("Regardless, you think your costume is the best. Good on you.");
-                        prompt("In homeroom, for the next tow periods, do you...")
+                        var homeroom1 = prompt("In homeroom, for the next two periods, do you [work], [fool around], or [play games]?");
+                        switch homeroom1  {
+                            case "fool around":
+                                alert("Rather than working, you fool around.");
+                                alert("You play catch with Arash, but you drop it multiple times and arash makes a joke about it.");
+                                var laugh1 = prompt("Do you laugh at the joke? ([yes] or [no]");
+                                switch laugh1   {
+                                    case "yes":
+                                        alert("Your satanic demon laugh invokes the rage of your classmates. They kill you.");
+                                        alert("GAME OVER");
+                                        break;
+                                    case "no":
+                                        alert("Arash gives you a look for not laughing, but other than that you continue on to Period 3.")
+                                        //From here on needs to match the "Work" option (past the first two alerts of that case)
+                            case "work":
+                                alert("You decide to actually work, like usual. Good.")
+                                alert("Class flies by, and all of a sudden it's Period 3.")
+                                //Need code here to match the code of the fool around option (if you pick no to laughing)
+                            case "play games":
+                                alert("You decide to play some minecraft.")
+                                alert("What could go wrong?")
+                                alert("Suddenly, because you were so immersed in your miencraft game, you realize your teacher was watching the whole time.")
+                                alert("Your teacher sends you home as punishment, and your mom grounds you.")
+                                alert("GAME OVER")
+                                break;
+                                }
+                                
+                        }
+                    
                 }
             } else {
                 alert("Your mom hears you making noises so she walks in your room.");
