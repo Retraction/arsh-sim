@@ -7,7 +7,7 @@ alert("The point of this game is to get through life without failing.");
         var breakfast1 = prompt("What do you eat for breakfast?").toLowerCase();
         alert("You finish breakfast and go back upstairs to brush again.");
         alert("You walk outside and wait about 5 minutes.");
-        alert("The bus never arrives.");
+        alert("The bus arrives.");
         alert("You are at school. It was a boring bus ride but you smelt a cow take a poop on the way.");
         alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods ar math! Your favourie subject.");
         alert("You easily finish the math and do some work on your laptop.");
