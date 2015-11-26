@@ -70,7 +70,7 @@ function $() {
                         alert("Walking into homeroom, you look around at the assortment of colors and unique costumes.");
                         alert("Regardless, you think your costume is the best. Good on you.");
                         var homeroom1 = prompt("In homeroom, for the next two periods, do you [work], [fool around], or [play games]?");
-                        switch homeroom1 {
+                        switch (homeroom1) {
                             case "fool around":
                                 alert("Rather than working, you fool around.");
                                 alert("You play catch with Arash, but you drop it multiple times and arash makes a joke about it.");
