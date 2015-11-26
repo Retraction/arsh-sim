@@ -1,4 +1,5 @@
-alert("The point of this game is to get through life without failing.");
+function $() {
+    alert("The point of this game is to get through life without failing.");
     alert("*The alarm rings*");
     var morning1 = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
     if (morning1 === "wake up") {
@@ -47,7 +48,6 @@ alert("The point of this game is to get through life without failing.");
                         alert("You say, \"Hey Connor. Nice costume.\"");
                         alert("Connor responds \"WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND IM SHORT.\"");
                         alert("In his fit of height-insecure induced rage, Connor kills you.");
-                        
                         break;
                     case "cameron":
                         alert("You say, \"Hey Cameron. Nice costume.\"");
@@ -70,34 +70,30 @@ alert("The point of this game is to get through life without failing.");
                         alert("Walking into homeroom, you look around at the assortment of colors and unique costumes.");
                         alert("Regardless, you think your costume is the best. Good on you.");
                         var homeroom1 = prompt("In homeroom, for the next two periods, do you [work], [fool around], or [play games]?");
-                        switch homeroom1  {
+                        switch homeroom1 {
                             case "fool around":
                                 alert("Rather than working, you fool around.");
                                 alert("You play catch with Arash, but you drop it multiple times and arash makes a joke about it.");
                                 var laugh1 = prompt("Do you laugh at the joke? ([yes] or [no]");
-                                switch laugh1   {
+                                switch laugh1 {
                                     case "yes":
                                         alert("Your satanic demon laugh invokes the rage of your classmates. They kill you.");
                                         alert("GAME OVER");
                                         break;
                                     case "no":
                                         alert("Arash gives you a look for not laughing, but other than that you continue on to Period 3.")
-                                        //From here on needs to match the "Work" option (past the first two alerts of that case)
-                            case "work":
-                                alert("You decide to actually work, like usual. Good.")
-                                alert("Class flies by, and all of a sudden it's Period 3.")
-                                //Need code here to match the code of the fool around option (if you pick no to laughing)
-                            case "play games":
-                                alert("You decide to play some minecraft.")
-                                alert("What could go wrong?")
-                                alert("Suddenly, because you were so immersed in your miencraft game, you realize your teacher was watching the whole time.")
-                                alert("Your teacher sends you home as punishment, and your mom grounds you.")
-                                alert("GAME OVER")
-                                break;
+                                    case "work":
+                                        alert("You decide to actually work, like usual. Good.")
+                                        alert("Class flies by, and all of a sudden it's Period 3.")
+                                    case "play games":
+                                        alert("You decide to play some minecraft.")
+                                        alert("What could go wrong?")
+                                        alert("Suddenly, because you were so immersed in your miencraft game, you realize your teacher was watching the whole time.")
+                                        alert("Your teacher sends you home as punishment, and your mom grounds you.")
+                                        alert("GAME OVER")
+                                        break;
                                 }
-                                
                         }
-                    
                 }
             } else {
                 alert("Your mom hears you making noises so she walks in your room.");
@@ -112,13 +108,14 @@ alert("The point of this game is to get through life without failing.");
             alert("GAME OVER");
         }
     } else if (morning1 === "sleep in") {
-            alert("Your dad comes and wakes you up.");
-            alert("RUN RUN RUN");
-            alert("You quickly brush your teeth and get ready.");
-            alert("You run downstairs to scarf on your breakfast.");
-            alert("You run back upstairs to brush your teeth again and run back downstairs. You run out the door.");
-            alert("The bus has long gone.");
-            alert("You come back inside and explain to your mom what happened.");
-            alert("Your mom gives you a beating.");
-            alert("GAME OVER");
+        alert("Your dad comes and wakes you up.");
+        alert("RUN RUN RUN");
+        alert("You quickly brush your teeth and get ready.");
+        alert("You run downstairs to scarf on your breakfast.");
+        alert("You run back upstairs to brush your teeth again and run back downstairs. You run out the door.");
+        alert("The bus has long gone.");
+        alert("You come back inside and explain to your mom what happened.");
+        alert("Your mom gives you a beating.");
+        alert("GAME OVER");
     }
+}
