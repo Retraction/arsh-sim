@@ -1,6 +1,6 @@
 alert("The point of this game is to get through life without failing.");
     alert("*The alarm rings*");
-    var morning1 = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
+    var morning1 = prompt("Would you like to [die] or [wake up]?").toLowerCase();
     if (morning1 === "wake up") {
         alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
         alert("You walk downstairs.");
@@ -47,7 +47,7 @@ alert("The point of this game is to get through life without failing.");
                         alert("You say, \"Hey Connor. Nice costume.\"");
                         alert("Connor responds \"WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND IM SHORT.\"");
                         alert("In his fit of height-insecure induced rage, Connor kills you.");
-                        alert("THE END");
+                        alert("You come back alive and terrorize the city. You are then shot by thirteen hundred cops to stop your terrorizing.");
                         break;
                     case "cameron":
                         alert("You say, \"Hey Cameron. Nice costume.\"");
