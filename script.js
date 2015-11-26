@@ -5,6 +5,14 @@ alert("The point of this game is to get through life without failing.");
         alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
         alert("You walk downstairs.");
         var breakfast1 = prompt("What do you eat for breakfast?").toLowerCase();
+        if (breakfast1 === "nothing") {
+            alert("You head to school. Your stomach rumbles on the way, but you continue on. How brave.");
+            alert("First period is gym. ");
+            alert("You try running, but the lack of breakfast is too much.");
+            alert("You die from exhaustion.");
+            alert("GAME OVER");
+        }
+    else {    
         alert("You finish breakfast and go back upstairs to brush again.");
         alert("You walk outside and wait about 5 minutes.");
         alert("The bus arrives.");
@@ -121,4 +129,6 @@ alert("The point of this game is to get through life without failing.");
             alert("You come back inside and explain to your mom what happened.");
             alert("Your mom gives you a beating.");
             alert("GAME OVER");
+    }        
+
     }
