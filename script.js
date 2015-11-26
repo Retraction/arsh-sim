@@ -118,17 +118,17 @@ if (confirm("Would you like to play this game?")) {
                 switch (classmates) {
                     case "daman":
                     	alert("You say, \"Hey Daman. Nice costume.\"");
-                     	alert("He responds, 'I'm not wearing a costume, retard.' He proceeds to lightly tap your shoulder in a joking way. Being Arshneet, this kills you.");
+                     	alert("He responds, \"I'm not wearing a costume, retard.\" He proceeds to lightly tap your shoulder in a joking way. Being Arshneet, this kills you.");
                      	alert("THE END");
                         break;
                     case "connor":
-                      	alert("You say, 'Hey Connor. Nice costume.'");
+                      	alert("You say, \"Hey Connor. Nice costume.\"");
                        	alert("Connor responds \"WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND IM SHORT.\"");
                        	alert("In his fit of height-insecure induced rage, Connor kills you.");
                        	alert("THE END");
                        	break;
                     case "cameron":
-                        alert("You say, 'Hey cameron. Nice costume.'");
+                        alert("You say, \"Hey Cameron. Nice costume.\"");
                         alert("Cameron responds, \"Thanks arshneet, what are you supposed to...be..\"");
                         alert("He then has an asthma attack on the spot.");
                         alert("The stress of Cameron's death kills you.");
