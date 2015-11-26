@@ -113,31 +113,30 @@ if (confirm("Would you like to play this game?")) {
             var night1 = prompt("[Stay up] or [go to sleep]?").toLowerCase();
             if (night1 === "go to sleep") {
                 alert("You wake up the next day.");
-                alert("It's halloween. You put on your genius costume, a fedora and call yourself Winston Churchill.");
-                alert("As you walk to school, you see some of your classmates. Cameron the demon, Daman the schoolkid, Connor the leprechaun, and Harshan the zombie.");
-                var classmates = prompt("Do you greet them or [ignore] them? Which one do you greet?");
+                alert("It's Halloween. You put on your brilliant costume, a fedora and call yourself Winston Churchill.");
+                var classmates = prompt("As you walk to school, you see some of your classmates. [Cameron] the Demon, [Daman] the Schoolkid, [Connor] the Leprechaun, and [Harshan] the Zombie.\nDo you greet them or [ignore] them? If you did greet them, which one do you greet?").toLowerCase();
                 switch (classmates) {
-                    case "Daman":
-                    	alert("You say, 'Hey daman. Nice costume.'");
-                     	alert("He responds, 'I'm not wearing a costume, retard.' He proceeds to lightly tap your shoulder in a joking way. Being arshneet, this kills you.");
+                    case "daman":
+                    	alert("You say, \"Hey Daman. Nice costume.\"");
+                     	alert("He responds, 'I'm not wearing a costume, retard.' He proceeds to lightly tap your shoulder in a joking way. Being Arshneet, this kills you.");
                      	alert("THE END");
                         break;
-                    case "Connor":
-                      	alert("You say, 'Hey connor. Nice costume.'");
-                       	alert("Connor responds 'WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND IM SHORT.'");
-                       	alert("In his fit of height-insecure induced rage, connor kills you.");
+                    case "connor":
+                      	alert("You say, 'Hey Connor. Nice costume.'");
+                       	alert("Connor responds \"WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND IM SHORT.\"");
+                       	alert("In his fit of height-insecure induced rage, Connor kills you.");
                        	alert("THE END");
                        	break;
-                    case "Cameron":
+                    case "cameron":
                         alert("You say, 'Hey cameron. Nice costume.'");
-                        alert("Cameron responds, 'Thanks arshneet, what are you supposed to...be..'");
+                        alert("Cameron responds, \"Thanks arshneet, what are you supposed to...be..\"");
                         alert("He then has an asthma attack on the spot.");
-                        alert("The stress of cameron's death kills you.");
+                        alert("The stress of Cameron's death kills you.");
                         alert("GAME OVER");
                         break;
-                    case "Harshan":
-                        alert("You say, 'Hey harshan. Wow, cool costume.'");
-                        alert("He responds, 'Thanks fam. What are you goin as when you trick or tre-'");
+                    case "harshan":
+                        alert("You say, \"Hey Harshan. Wow, cool costume.\"");
+                        alert("He responds, \"Thanks fam. What are you goin as when you trick or tre-\"");
                         alert("He faints on the spot.");
                         alert("The stress kills you.");
                         alert("GAME OVER");
