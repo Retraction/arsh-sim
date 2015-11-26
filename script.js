@@ -8,7 +8,6 @@ if (confirm("Would you like to play this game?")) {
         alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
         alert("You walk downstairs.");
         var breakfast1 = prompt("What do you eat for breakfast?").toLowerCase();
-<<<<<<< HEAD
         alert("You finish breakfast and go back upstairs to brush again.");
         alert("You walk outside and wait about 5 minutes.");
         alert("The bus arrives.");
@@ -50,7 +49,6 @@ if (confirm("Would you like to play this game?")) {
             alert("GAME OVER");
         } else {
             alert("Your teacher notices you are doing not doing the exercise so she yells at you and now you have to do 700 more laps.");
-=======
         if (breakfast1 === "cereal") {
             alert("You finish breakfast and go back upstairs to brush again.");
             alert("You walk outside and wait about 5 minutes.");
@@ -330,7 +328,6 @@ if (confirm("Would you like to play this game?")) {
             }
         } else {
             alert("What are you trying to do?");
->>>>>>> origin/gh-pages
             alert("GAME OVER");
         }
     } else if (morning1 === "sleep in") {
