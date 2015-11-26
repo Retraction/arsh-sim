@@ -39,8 +39,8 @@ if (confirm("Would you like to play this game?")) {
             if (night1 === "go to sleep") {
                 alert("You wake up the next day.");
                 alert("It's halloween. You put on your genius costume, a fedora and call yourself Winston Churchill.");
-                alert("As you walk to school, you see some of your classmates. Cameron the demon, Daman the schoolkid, and Connor the leprechaun.");
-                var classmates = prompt("Which one do you greet?");
+                alert("As you walk to school, you see some of your classmates. Cameron the demon, Daman the schoolkid, Connor the leprechaun, and Harshan the zombie.");
+                var classmates = prompt("Do you greet them or [ignore] them? Which one do you greet?");
                 switch (classmates) {
                     case "Daman":
                     	alert("You say, 'Hey daman. Nice costume.'");
@@ -53,6 +53,26 @@ if (confirm("Would you like to play this game?")) {
                        	alert("In his fit of height-insecure induced rage, connor kills you.");
                        	alert("THE END");
                        	break;
+                    case "Cameron":
+                        alert("You say, 'Hey cameron. Nice costume.'");
+                        alert("Cameron responds, 'Thanks arshneet, what are you supposed to...be..'");
+                        alert("He then has an asthma attack on the spot.");
+                        alert("The stress of cameron's death kills you.");
+                        alert("GAME OVER");
+                        break;
+                    case "Harshan":
+                        alert("You say, 'Hey harshan. Wow, cool costume.'");
+                        alert("He responds, 'Thanks fam. What are you goin as when you trick or tre-'");
+                        alert("He faints on the spot.");
+                        alert("The stress kills you.");
+                        alert("GAME OVER");
+                        break;
+                    case "ignore":
+                        alert("You ignore them. Good, since you're a loner anyway.");
+                        alert("You continue on your merry way to school.");
+                    
+    
+        
                     }
             } else {
                 alert("Your mom hears you making noises so she walks in your room.");
