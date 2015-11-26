@@ -7,7 +7,7 @@ if (confirm("Would you like to play this game?")) {
     if (morning1 === "wake up") {
         alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
         alert("You walk downstairs.");
-        var breakfast1 = prompt("What do you eat for breakfast?").toLowerCase();
+        /*var breakfast1 = */prompt("What do you eat for breakfast?").toLowerCase();
         alert("You finish breakfast and go back upstairs to brush again.");
         alert("You walk outside and wait about 5 minutes.");
         alert("The bus arrives.");
@@ -40,20 +40,22 @@ if (confirm("Would you like to play this game?")) {
                 alert("You wake up the next day.");
                 alert("It's halloween. You put on your genius costume, a fedora and call yourself Winston Churchill.");
                 alert("As you walk to school, you see some of your classmates. Cameron the demon, Daman the schoolkid, and Connor the leprechaun.");
-                var classmates = prompt("Which one do you greet?");
-                switch (classmates) {
-                    case "Daman":
+                var classmates1 = prompt("Which one do you greet?").toLowerCase();
+                switch (classmates1) {
+                    case "daman":
                     	alert("You say, 'Hey daman. Nice costume.'");
                      	alert("He responds, 'I'm not wearing a costume, retard.' He proceeds to lightly tap your shoulder in a joking way. Being arshneet, this kills you.");
                      	alert("THE END");
                         break;
-                    case "Connor":
+                    case "connor":
                       	alert("You say, 'Hey connor. Nice costume.'");
                        	alert("Connor responds 'WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND IM SHORT.'");
                        	alert("In his fit of height-insecure induced rage, connor kills you.");
                        	alert("THE END");
                        	break;
-                    }
+                    default:
+                    	alert("Your mom");
+                }
             } else {
                 alert("Your mom hears you making noises so she walks in your room.");
                 alert("Your mom sees what you are doing so she makes you sleep in her room");
