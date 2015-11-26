@@ -1,3 +1,5 @@
+//This is the source code of the arshneet simulator. It's completely text based. Feel free to muck around, 
+//then submit a pull request. Even if it doesn't belong in the main game, we might keep it in a fork if we like it.
 alert("The point of this game is to get through life without failing.");
 if (confirm("Would you like to play this game?")) {
     alert("*The alarm rings*");
