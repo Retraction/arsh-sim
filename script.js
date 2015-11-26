@@ -70,6 +70,7 @@ if (confirm("Would you like to play this game?")) {
                         alert("As you get to school, the bell rings. Made it just in time!");
                         alert("Walking into homeroom, you look around at the assortment of colors and unique costumes.");
                         alert("Regardless, you think your costume is the best. Good on you.");
+                        prompt("In homeroom, for the next tow periods, do you..")
                 }
             } else {
                 alert("Your mom hears you making noises so she walks in your room.");
