@@ -9,7 +9,7 @@ if (confirm("Would you like to play this game?")) {
         alert("You walk downstairs.");
         /*var breakfast1 = */prompt("What do you eat for breakfast?").toLowerCase();
         alert("You finish breakfast and go back upstairs to brush again.");
-        alert("You walk outside and wait about 5 minutes.");
+        alert("You walk outside and wait about five minutes.");
         alert("The bus arrives.");
         alert("You are at school. It was a boring bus ride but you smelt a cow take a poop on the way.");
         alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods ar math! Your favourie subject.");
@@ -33,8 +33,8 @@ if (confirm("Would you like to play this game?")) {
             alert("Kulshan fails to save his chair, so he takes a chair from a boy named Tejas.");
             alert("Tejas pushes Kulshan off the chair, and gets his chair back.");
             alert("At that moment, Kulshan knew, he was chairless.");
-            alert("When I went home, the day went normal. I watched some TV and played outside a bit.");
-            alert("You go to sleep after eating dinner, do you...");
+            alert("When you go home, you watch some TV and play outside a bit.");
+            alert("After eating dinner, do you...");
             var night1 = prompt("[Stay up] or [go to sleep]?").toLowerCase();
             if (night1 === "go to sleep") {
                 alert("You wake up the next day.");
@@ -58,7 +58,7 @@ if (confirm("Would you like to play this game?")) {
                 }
             } else {
                 alert("Your mom hears you making noises so she walks in your room.");
-                alert("Your mom sees what you are doing so she makes you sleep in her room");
+                alert("Your mom sees what you are doing so she makes you sleep in her room.");
                 alert("GAME OVER");
             }
         } else if (cheat1 === "skip a few laps") {
