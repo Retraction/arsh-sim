@@ -46,7 +46,7 @@ if (confirm("Would you like to play this game?")) {
                         break;
                     case "connor":
                         alert("You say, \"Hey Connor. Nice costume.\"");
-                        alert("Connor responds \"WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND IM SHORT.\"");
+                        alert("Connor responds \"WOW. OF COURSE YOU THINK THE LEPRECHAUN COSTUME IS GOOD. BECAUSE LEPRECHAUNS ARE SHORT AND I'M SHORT.\"");
                         alert("In his fit of height-insecure induced rage, Connor kills you.");
                         alert("THE END");
                         break;
