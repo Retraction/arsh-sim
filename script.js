@@ -67,6 +67,9 @@ if (confirm("Would you like to play this game?")) {
                     case "ignore":
                         alert("You ignore them. Good, since you're a loner anyway.");
                         alert("You continue on your merry way to school.");
+                        alert("As you get to school, the bell rings. Made it just in time!");
+                        alert("Walking into homeroom, you look around at the assortment of colors and unique costumes.");
+                        alert("Regardless, you think your costume is the best. Good on you.");
                 }
             } else {
                 alert("Your mom hears you making noises so she walks in your room.");
