@@ -7,7 +7,7 @@ function $() {
 		alert("You walk downstairs.");
 		var breakfast1 = prompt("What do you eat for breakfast?").toLowerCase();
 		alert("You finish breakfast and go back upstairs to brush again.");
-		alert("You walk outside and wait about 5 minutes.");
+		alert("You walk outside and wait about five minutes.");
 		alert("The bus arrives.");
 		alert("You are at school. It was a boring bus ride.");
 		alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
@@ -47,7 +47,7 @@ function $() {
 					alert("You walk downstairs.");
 					var breakfast2 = prompt("What do you eat for breakfast?").toLowerCase();
 					alert("You finish breakfast and go back upstairs to brush again.");
-					alert("You walk outside and wait about 5 minutes.");
+					alert("You walk outside and wait about five minutes.");
 					alert("The bus arrives.");
 					alert("You are at school. It was yet again a boring bus ride.");
 				}
@@ -112,6 +112,7 @@ function $() {
 								alert("GAME OVER");
 								break;
 						}
+						break;
 				}
 			} else {
 				alert("Your mom hears you making noises so she walks in your room.");
