@@ -10,7 +10,7 @@ function $() {
 		alert("You walk outside and wait about 5 minutes.");
 		alert("The bus arrives.");
 		alert("You are at school. It was a boring bus ride.");
-		alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math! Your favourie subject.");
+		alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
 		alert("You easily finish the math and do some work on your laptop.");
 		alert("RING RING RING!");
 		alert("Second period, gym!");
@@ -35,10 +35,25 @@ function $() {
 			alert("You go to sleep after eating dinner, do you...");
 			var night1 = prompt("[Stay up] or [go to sleep]?").toLowerCase();
 			if (night1 === "go to sleep") {
-				alert("You wake up the next day.");
+				alert("*The alarm rings*");
+				var morning2 = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
+				if (morning2 === "sleep in") {
+					alert("Your dad comes and wakes you up.");
+					alert("RUN RUN RUN");
+					alert("You quickly brush your teeth and get ready. You run out the door.");
+					alert("You almost miss the bus. It's almost left, but you yell and the bus driver keeps the bus there for you.");
+				} else if (morning2 === "wake up") {
+					alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
+					alert("You walk downstairs.");
+					var breakfast2 = prompt("What do you eat for breakfast?").toLowerCase();
+					alert("You finish breakfast and go back upstairs to brush again.");
+					alert("You walk outside and wait about 5 minutes.");
+					alert("The bus arrives.");
+					alert("You are at school. It was yet again a boring bus ride.");
+				}
 				alert("It's Halloween. You put on your brilliant costume, a fedora and call yourself Winston Churchill.");
-				var classmates = prompt("As you walk to school, you see some of your classmates. [Cameron] the Demon, [Daman] the Schoolkid, [Connor] the Leprechaun, and [Harshan] the Zombie.\nDo you greet them or [ignore] them? If you did greet them, which one do you greet?").toLowerCase();
-				switch (classmates) {
+				var classmate2 = prompt("As you walk to the school building, you see some of your classmates. [Cameron] the Demon, [Daman] the Schoolkid, [Connor] the Leprechaun, and [Harshan] the Zombie.\nDo you greet them or [ignore] them? If you did greet them, which one do you greet?").toLowerCase();
+				switch (classmate2) {
 					case "daman":
 						alert("You say, \"Hey Daman. Nice costume.\"");
 						alert("He responds, \"I'm not wearing a costume, retard.\" He proceeds to lightly tap your shoulder in a joking way. Being Arshneet, this kills you.");
@@ -69,30 +84,32 @@ function $() {
 						alert("As you get to school, the bell rings. Made it just in time!");
 						alert("Walking into homeroom, you look around at the assortment of colors and unique costumes.");
 						alert("Regardless, you think your costume is the best. Good on you.");
-						var homeroom1 = prompt("In homeroom, for the next two periods, do you [work], [fool around], or [play games]?").toLowerCase();
-						switch (homeroom1) {
+						var homeroom2 = prompt("In homeroom, for the next two periods, do you [work], [fool around], or [play games]?").toLowerCase();
+						switch (homeroom2) {
 							case "fool around":
 								alert("Rather than working, you fool around.");
 								alert("You play catch with Arash, but you drop it multiple times and arash makes a joke about it.");
-								var laugh1 = prompt("Do you laugh at the joke? ([yes] or [no]").toLowerCase();
-								switch (laugh1) {
+								var laugh2 = prompt("Do you laugh at the joke? ([yes] or [no])").toLowerCase();
+								switch (laugh2) {
 									case "yes":
 										alert("Your satanic demon laugh invokes the rage of your classmates. They kill you.");
 										alert("GAME OVER");
 										break;
 									case "no":
-										alert("Arash gives you a look for not laughing, but other than that you continue on to Period 3.")
-									case "work":
-										alert("You decide to actually work, like usual. Good.")
-										alert("Class flies by, and all of a sudden it's Period 3.")
-									case "play games":
-										alert("You decide to play some minecraft.")
-										alert("What could go wrong?")
-										alert("Suddenly, because you were so immersed in your miencraft game, you realize your teacher was watching the whole time.")
-										alert("Your teacher sends you home as punishment, and your mom grounds you.")
-										alert("GAME OVER")
+										alert("Arash gives you a look for not laughing, but other than that you continue on to Period 3.");
 										break;
 								}
+								break;
+							case "work":
+								alert("You decide to actually work, like usual. Good.");
+								alert("Class flies by, and all of a sudden it's Period 3.");
+								break;
+							case "play games":
+								alert("You decide to play some Minecraft.");
+								alert("What could go wrong?");
+								alert("Suddenly, because you were so immersed in your minecraft game, you realize your teacher was watching the whole time.");
+								alert("Your teacher sends you home as punishment, and your mom grounds you.");
+								alert("GAME OVER");
 								break;
 						}
 				}
@@ -111,9 +128,7 @@ function $() {
 	} else if (morning1 === "sleep in") {
 		alert("Your dad comes and wakes you up.");
 		alert("RUN RUN RUN");
-		alert("You quickly brush your teeth and get ready.");
-		alert("You run downstairs to scarf on your breakfast.");
-		alert("You run back upstairs to brush your teeth again and run back downstairs. You run out the door.");
+		alert("You quickly brush your teeth and get ready. You run out the door.");
 		alert("The bus has long gone.");
 		alert("You come back inside and explain to your mom what happened.");
 		alert("Your mom gives you a beating.");
