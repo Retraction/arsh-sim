@@ -7,47 +7,50 @@ var homeroom;
 var laugh;
 var warmup;
 var night;
+var gameover = false;
+function fmorning () {
+	morning = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
+	switch (morning) {
+		case "sleep in":
+			alert("Your dad comes and wakes you up.");
+			alert("RUN RUN RUN");
+			alert("You quickly brush your teeth and get ready. You run out the door.");
+			alert("The bus has long gone.");
+			alert("You come back inside and explain to your mom what happened.");
+			alert("Your mom gives you a beating.");
+			alert("GAME OVER");
+			break;
+		case "wake up":
+			alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
+			alert("You walk downstairs.");
+			break;
+		default:
+			fmorning();
+	}
+}
+function fbreakfast () {
+	/*breakfast = */prompt("What do you eat for breakfast?").toLowerCase();
+	alert("You finish breakfast and go back upstairs to brush again.");
+	alert("You walk outside and wait about five minutes.");
+	alert("The bus arrives.");
+	alert("You are at school. It was a boring bus ride.");
+	alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
+	alert("You easily finish the math and do some work on your laptop.");
+	alert("RING RING RING!");
+	alert("Second period, gym!");
+	alert("You walk inside the boys changeroom and quickly get dressed for gym.");
+	alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
+	alert("During the warmup, do you...");
+	}
+/*function fwarmup () {
+			
+}*/
 function $() {
 	alert("The point of this game is to get through life without failing.");
 	while (!gameover) {
 		alert("*The alarm rings*");
-		function fmorning () {
-			morning = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
-			switch (morning) {
-				case "sleep in":
-					alert("Your dad comes and wakes you up.");
-					alert("RUN RUN RUN");
-					alert("You quickly brush your teeth and get ready. You run out the door.");
-					alert("The bus has long gone.");
-					alert("You come back inside and explain to your mom what happened.");
-					alert("Your mom gives you a beating.");
-					alert("GAME OVER");
-					break;
-				case "wake up":
-					alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
-					alert("You walk downstairs.");
-					break;
-				default:
-					fmorning();
-			}
-		}
-		function fbreakfast () {
-			/*breakfast = */prompt("What do you eat for breakfast?").toLowerCase();
-			alert("You finish breakfast and go back upstairs to brush again.");
-			alert("You walk outside and wait about five minutes.");
-			alert("The bus arrives.");
-			alert("You are at school. It was a boring bus ride.");
-			alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
-			alert("You easily finish the math and do some work on your laptop.");
-			alert("RING RING RING!");
-			alert("Second period, gym!");
-			alert("You walk inside the boys changeroom and quickly get dressed for gym.");
-			alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
-			alert("During the warmup, do you...");
-		}
-		function fwarmup () {
-			
-		}
+		fmorning();
+		fbreakfast();
 		/*alert("*The alarm rings*");
 		var morning1 = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
 		if (morning1 === "wake up") {
