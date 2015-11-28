@@ -24,33 +24,72 @@ function fmorning () {
 			alert("You wake up and slowly walk to the washroom, to brush your teeth and get ready.");
 			alert("You walk downstairs.");
 			break;
+		case "quit":
+			gameover = true;
+			break;
 		default:
 			fmorning();
 	}
 }
 function fbreakfast () {
-	/*breakfast = */prompt("What do you eat for breakfast?").toLowerCase();
-	alert("You finish breakfast and go back upstairs to brush again.");
-	alert("You walk outside and wait about five minutes.");
-	alert("The bus arrives.");
-	alert("You are at school. It was a boring bus ride.");
-	alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
-	alert("You easily finish the math and do some work on your laptop.");
-	alert("RING RING RING!");
-	alert("Second period, gym!");
-	alert("You walk inside the boys changeroom and quickly get dressed for gym.");
-	alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
-	alert("During the warmup, do you...");
+	breakfast = prompt("What do you eat for breakfast?").toLowerCase();
+	if (breakfast !== "quit") {
+		alert("You finish breakfast and go back upstairs to brush again.");
+		alert("You walk outside and wait about five minutes.");
+		alert("The bus arrives.");
+		alert("You are at school. It was a boring bus ride.");
+		alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
+		alert("You easily finish the math and do some work on your laptop.");
+		alert("RING RING RING!");
+		alert("Second period, gym!");
+		alert("You walk inside the boys changeroom and quickly get dressed for gym.");
+		alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
+		alert("During the warmup, do you...");
+	} else {
+		gameover = true;
 	}
-/*function fwarmup () {
-			
-}*/
+}
+function fwarmup () {
+	warmup = prompt("[Skip a few laps] or [do it all]?").toLowerCase();
+	switch (warmup) {
+		case "skip a few laps":
+			alert("Your teacher notices and yells at you for cheating. You now have to do 700 more laps.");
+			alert("GAME OVER");
+			break;
+		case "do it all":
+			alert("You do all of the warmup");
+			alert("HUFF PUFF HUFF PUFF HUFF PUFF");
+			alert("The class plays a game of volleyball and you were the top player!");
+			alert("You go back and put your normal clothes back on.");
+			alert("RING RING RING!");
+			alert("Ah, lunch time.");
+			alert("You eat your food and play outside.");
+			alert("The rest of the day goes on as usual, until you noticed the most hilarious thing.");
+			alert("A girl called Ameeta steals tries taking a chair from Kulshan.");
+			alert("Kulshan fails to save his chair, so he takes a chair from a boy named Tejas.");
+			alert("Tejas pushes Kulshan off the chair, and gets his chair back.");
+			alert("At that moment, Kulshan knew, he was chairless.");
+			alert("When I went home, the day went normal. I watched some TV and played outside a bit.");
+			alert("You go to sleep after eating dinner, do you...");
+			break;
+		case "quit":
+			gameover = true;
+			break;
+		default:
+			fwarmup();
+	}
+}
 function $() {
 	alert("The point of this game is to get through life without failing.");
 	while (!gameover) {
 		alert("*The alarm rings*");
 		fmorning();
-		fbreakfast();
+		if (!gameover) {
+			fbreakfast();
+		}
+		if (!gameover) {
+			fwarmup();
+		}
 		/*alert("*The alarm rings*");
 		var morning1 = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
 		if (morning1 === "wake up") {
@@ -187,4 +226,5 @@ function $() {
 			alert("GAME OVER");
 		}*/
 	}
+	gameover = false;
 }
