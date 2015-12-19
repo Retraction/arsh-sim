@@ -6,7 +6,7 @@ var homeroom;
 var warmup;
 var night;
 var gameover = false;
-function $() {
+function arshsim() {
 	while (!gameover) {
 		day += 1;
 		morning = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
