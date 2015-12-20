@@ -6,4 +6,10 @@ If you're here but not from IELC 2015-2016, you might miss some inside jokes.
 
 If you want to play the game [BETA] you can find it at http://355over113.github.io/arsh-sim/.
 
+## Features
+
+- You get to play as Arshneet (obviously)
+- Randomizers deciding if you make it through certain events
+- Deaths that make almost no sense at all!
+
 P.S. This is both mine and Grinsanity's first large project, so if we're doing something wrong, feel free to help us out.
