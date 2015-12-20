@@ -147,6 +147,7 @@ function arshsim() {
 												alert("Suddenly, because you were so immersed in your Minecraft game, you realize your teacher was watching the whole time.");
 												alert("Your teacher sends you home as punishment, and your mom grounds you.");
 												alert("GAME OVER");
+												gameover = true;
 												break;
 										}
 										if (!gameover) {
