@@ -150,6 +150,7 @@ function arshsim() {
 							case "yes":
 								alert("Your satanic demon laugh invokes the rage of your classmates. They kill you.");
 								alert("GAME OVER");
+								gameover = true;
 								break;
 							case "no":
 								alert("Arash gives you a look for not laughing, but other than that you continue on to third period.");
