@@ -20,11 +20,16 @@ function arshsim() {
 					alert("Your dad comes and wakes you up.");
 					alert("RUN RUN RUN");
 					alert("You quickly brush your teeth and get ready. You run out the door.");
-					alert("The bus has long gone.");
-					alert("You come back inside and explain to your mom what happened.");
-					alert("Your mom gives you a beating.");
-					alert("GAME OVER");
-					gameover = true;
+					if (Math.random() < 0.5) {
+						alert("The bus has long gone.");
+						alert("You come back inside and explain to your mom what happened.");
+						alert("Your mom gives you a beating.");
+						alert("GAME OVER");
+						gameover = true;
+					} else {
+						alert("You reach the bus just in time.");
+						alert("You are at school. It was a boring bus ride.");
+					}
 				}
 				break;
 			case "wake up":
