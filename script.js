@@ -253,4 +253,5 @@ function arshsim() {
 		}
 	}
 	gameover = false;
+	day = 1;
 }
