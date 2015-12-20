@@ -1,15 +1,18 @@
 var day = 0;
 var morning;
-var classmates;
 var homeroom;
 var warmup;
-var night;
+var classmate;
+var homeroom;
+var laugh;
 var damanserve;
-var arshtechnique;
+var arshserve;
+var sleep;
 var gameover = false;
 function arshsim() {
 	while (!gameover) {
 		day += 1;
+		alert("*Alarm rings*");
 		morning = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
 		switch (morning) {
 			case "sleep in":
@@ -49,8 +52,8 @@ function arshsim() {
 								alert("You walk inside the boys changeroom and quickly get dressed for gym.");
 								alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
 								alert("During the warmup, do you...");
-								var cheat = prompt("[Skip a few laps] or [do it all]?").toLowerCase();
-								switch (cheat) {
+								warmup = prompt("[Skip a few laps] or [do it all]?").toLowerCase();
+								switch (warmup) {
 									case "skip a few laps":
 										alert("Your teacher notices and yells at you for cheating. You now have to do 700 more laps.");
 										alert("GAME OVER");
@@ -82,7 +85,7 @@ function arshsim() {
 								break;
 							case 2:
 								alert("It's Halloween. You put on your brilliant costume, a fedora and call yourself Winston Churchill.");
-								var classmate = prompt("As you walk to the school building, you see some of your classmates. [Cameron] the Demon, [Daman] the Schoolkid, [Connor] the Leprechaun, and [Harshan] the Zombie.\nDo you greet them or [ignore] them? If you did greet them, which one do you greet?").toLowerCase();
+								classmate = prompt("As you walk to the school building, you see some of your classmates. [Cameron] the Demon, [Daman] the Schoolkid, [Connor] the Leprechaun, and [Harshan] the Zombie.\nDo you greet them or [ignore] them? If you did greet them, which one do you greet?").toLowerCase();
 								switch (classmate) {
 									case "daman":
 										alert("You say, \"Hey Daman. Nice costume.\"");
@@ -118,85 +121,25 @@ function arshsim() {
 										alert("As you get to school, the bell rings. Made it just in time!");
 										alert("Walking into homeroom, you look around at the assortment of colors and unique costumes.");
 										alert("Regardless, you think your costume is the best. Good on you.");
-										var homeroom2 = prompt("In homeroom, for the next two periods, do you [work], [fool around], or [play games]?").toLowerCase();
-										switch (homeroom2) {
+										homeroom = prompt("In homeroom, for the next two periods, do you [work], [fool around], or [play games]?").toLowerCase();
+										switch (homeroom) {
 											case "fool around":
 												alert("Rather than working, you fool around.");
 												alert("You play catch with Arash but you drop the ball multiple times and arash makes a joke about it.");
-												var laugh2 = prompt("Do you laugh at the joke? ([yes] or [no])").toLowerCase();
-												switch (laugh2) {
+												laugh = prompt("Do you laugh at the joke? ([yes] or [no])").toLowerCase();
+												switch (laugh) {
 													case "yes":
 														alert("Your satanic demon laugh invokes the rage of your classmates. They kill you.");
 														alert("GAME OVER");
 														break;
 													case "no":
 														alert("Arash gives you a look for not laughing, but other than that you continue on to Period 3.");
-														alert("Gym again.");
-														alert("You do your warmup and help the teacher put out the volleyball net.");
-														alert("It's the other team's serve, and Daman throws his legendary overhand.");
-														alert("Do you..");
-														damanserve = prompt("[Try to return it], [Dodge out of the way] or [Stand in the way]?");
-														switch (damanserve)	{
-															case "Try to return it":
-																alert("You wish. This is daman's serve we're talking about.");
-																alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
-																alert("GAME OVER");
-																gameover = true;
-																break;
-															case "Stand in the way":
-																alert("Well, that wasn't a smart decision.");
-																alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
-																alert("GAME OVER");
-																gameover == true;
-																break;
-															
-															case "Dodge out of the way":
-																alert("You try your very best to dodge.");
-																alert("You fail though.");
-																alert("Luckily, Harshan, thirsty for redemption after being out-served by Daman, jumps in the way and takes the full force of the hit.");
-																alert("Point daman's team.");
-																alert("Daman serves again, but Aryaman returns it and scores your team a point.");
-																alert("Your turn to serve.");
-																alert("What technque do you use for your serve?");
-																arshtechnique = prompt("The [Arshneet sidewinder], the [Traditional], or the [Daman Punch]?");
-																switch (arshtechnique)	{
-																	case "Daman Punch":
-																		alert("You try daman's serve.");
-																		alert("You can't pull it off.");
-																		alert("You have been shamed and must commit seppuku.");
-																		alert("GAME OVER");
-																		gameover == true;
-																		break;
-																	case "Traditional":
-																		alert("Arshneet? Doing traditional sports?");
-																		alert("Hah, good one.");
-																		alert("GAME OVER");
-																		gameover == true;
-																		break;
-																	case "Arshneet sidewinder":
-																		alert("You use your signature technique, and get a ball over the net.");
-																		alert("Doesn't matter though, you still lose.")
-																		alert("You head home after some more boring work periods.")
-																		
-																		
-																}	
-																		
-																		
-																	
-																}
-																
-															
-																
-															
-														gameover = true;
 														break;
-														}
 												}
 												break;
 											case "work":
 												alert("You decide to actually work, like usual. Good.");
-												alert("But, you're so boring, life has no meaning.");
-												gameover = true;
+												alert("Class flies by, and all of a sudden it's Period 3.");
 												break;
 											case "play games":
 												alert("You decide to play some Minecraft.");
@@ -204,8 +147,56 @@ function arshsim() {
 												alert("Suddenly, because you were so immersed in your Minecraft game, you realize your teacher was watching the whole time.");
 												alert("Your teacher sends you home as punishment, and your mom grounds you.");
 												alert("GAME OVER");
-												gameover = true;
 												break;
+										}
+										if (!gameover) {
+											alert("You enter the gymnasium once again. Warmup was skipped because the volleyball net was up.");
+											alert("A game of volleyball begins. Daman's legendary overhand serve makes it over the net, with the ball coming straight at you.");
+											damanserve = prompt("Will you [try to return it], [get out of the way] or [stand in the way]?").toLowerCase();
+											switch (damanserve)	{
+												case "try to return it":
+													alert("You wish. This is Daman's serve we're talking about.");
+													alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+													alert("GAME OVER");
+													gameover = true;
+													break;
+												case "stand in the way":
+													alert("Well, that wasn't a smart decision.");
+													alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+													alert("GAME OVER");
+													gameover = true;
+													break;
+												case "get out of the way":
+													alert("You try your very best to dodge.");
+													alert("You fail though.");
+													alert("Luckily, Harshan, thirsty for redemption after being out-served by Daman, jumps in the way and takes the full force of the hit.");
+													alert("Point Daman's team.");
+													alert("Daman serves again, but Aryaman returns it and scores your team a point.");
+													alert("Your turn to serve.");
+													alert("What technque do you use for your serve?");
+													arshserve = prompt("The [Arshneet Sidewinder], [traditional], or the [Daman Punch]?").toLowerCase();
+													switch (arshserve) {
+														case "daman punch":
+															alert("You try Daman's serve.");
+															alert("You can't pull it off.");
+															alert("You have been shamed and must commit seppuku.");
+															alert("GAME OVER");
+															gameover = true;
+															break;
+														case "traditional":
+															alert("Arshneet? Doing traditional sports?");
+															alert("Hah, good one.");
+															alert("GAME OVER");
+															gameover = true;
+															break;
+														case "arshneet sidewinder":
+															alert("You use your signature technique, and get a ball over the net.");
+															alert("Doesn't matter though, you still lose.");
+															alert("You head home after some more boring work periods, but to you, it's just your normal every day life.");
+															alert("You eat dinner as usual. No skipping it becuase your parents are watching. After all, you're starving. Boy, is volleyball tiring.");
+													}
+													break;
+											}
 										}
 										break;
 									default:
@@ -218,8 +209,8 @@ function arshsim() {
 						}
 						if (!gameover) {
 							alert("After eating dinner, do you...");
-							var night = prompt("...[stay up] or [go to sleep]?").toLowerCase();
-							switch (night) {
+							sleep = prompt("...[stay up] or [go to sleep]?").toLowerCase();
+							switch (sleep) {
 								case "stay up":
 									alert("You stay up and play video games.");
 									while (!gameover) {
