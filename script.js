@@ -20,7 +20,7 @@ function arshsim() {
 					alert("Your dad comes and wakes you up.");
 					alert("RUN RUN RUN");
 					alert("You quickly brush your teeth and get ready. You run out the door.");
-					if (Math.random() < 0.5) {
+					if (Math.random() < 0.25) {
 						alert("The bus has long gone.");
 						alert("You come back inside and explain to your mom what happened.");
 						alert("Your mom gives you a beating.");
@@ -67,25 +67,18 @@ function arshsim() {
 					warmup = prompt("[Skip a few laps] or [do it all]?").toLowerCase();
 					switch (warmup) {
 					case "skip a few laps":
-						alert("Your teacher notices and yells at you for cheating. You now have to do 700 more laps.");
-						alert("GAME OVER");
-						gameover = true;
+						if (Math.random() < 0.75) {
+							alert("Your teacher notices and yells at you for cheating. You now have to do 700 more laps.");
+							alert("GAME OVER");
+							gameover = true;
+						} else {
+							alert("You get away with skipping a few laps.");
+						}
 						break;
 					case "do it all":
 						if (breakfast !== "nothing") {
 							alert("You do all of the warmup.");
 							alert("HUFF PUFF HUFF PUFF HUFF PUFF");
-							alert("The class plays a game of volleyball and you were the top player!");
-							alert("You go back and put your normal clothes back on.");
-							alert("RING RING RING!");
-							alert("Ah, lunch time.");
-							alert("You eat your food and play outside.");
-							alert("The rest of the day goes on as usual, until you noticed the most hilarious thing.");
-							alert("A girl called Ameeta steals tries taking a chair from Kulshan.");
-							alert("Kulshan fails to save his chair, so he takes a chair from a boy named Tejas.");
-							alert("Tejas pushes Kulshan off the chair, and gets his chair back.");
-							alert("At that moment, Kulshan knew, he was chairless.");
-							alert("When you went home, you watched some TV and played outside a bit.");
 						} else {
 							alert("Not having any food, you die of exhaustion.");
 							gameover = true;
@@ -93,6 +86,20 @@ function arshsim() {
 						break;
 					default:
 						gameover = true;
+					}
+					if (!gameover) {
+						alert("The class plays a game of volleyball and you were the top player!");
+						alert("Just kidding, you suck at volleyball.");
+						alert("You go back and put your normal clothes back on.");
+						alert("RING RING RING!");
+						alert("Ah, lunch time.");
+						alert("You eat your food and play outside.");
+						alert("The rest of the day goes on as usual, until you noticed the most hilarious thing.");
+						alert("A girl called Ameeta steals tries taking a chair from Kulshan.");
+						alert("Kulshan fails to save his chair, so he takes a chair from a boy named Tejas.");
+						alert("Tejas pushes Kulshan off the chair, and gets his chair back.");
+						alert("At that moment, Kulshan knew, he was chairless.");
+						alert("When you went home, you watched some TV and played outside a bit.");
 					}
 					break;
 				case 2:
@@ -145,13 +152,13 @@ function arshsim() {
 								alert("GAME OVER");
 								break;
 							case "no":
-								alert("Arash gives you a look for not laughing, but other than that you continue on to Period 3.");
+								alert("Arash gives you a look for not laughing, but other than that you continue on to third period.");
 								break;
 							}
 							break;
 						case "work":
 							alert("You decide to actually work, like usual. Good.");
-							alert("Class flies by, and all of a sudden it's Period 3.");
+							alert("Class flies by, and all of a sudden it's third period.");
 							break;
 						case "play games":
 							alert("You decide to play some Minecraft.");
