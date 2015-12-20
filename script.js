@@ -6,6 +6,7 @@ var homeroom;
 var warmup;
 var night;
 var damanserve;
+var arshtechnique;
 var gameover = false;
 function arshsim() {
 	while (!gameover) {
@@ -141,7 +142,56 @@ function arshsim() {
 														damanserve = prompt("[Try to return it], [Dodge out of the way] or [Stand in the way]?");
 														switch (damanserve)	{
 															case "Try to return it":
-																alert("You wish. This is daman's serve we're talking about.")
+																alert("You wish. This is daman's serve we're talking about.");
+																alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+																alert("GAME OVER");
+																gameover = true;
+																break;
+															case "Stand in the way":
+																alert("Well, that wasn't a smart decision.");
+																alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+																alert("GAME OVER");
+																gameover == true;
+																break;
+															
+															case "Dodge out of the way":
+																alert("You try your very best to dodge.");
+																alert("You fail though.");
+																alert("Luckily, Harshan, thirsty for redemption after being out-served by Daman, jumps in the way and takes the full force of the hit.");
+																alert("Point daman's team.");
+																alert("Daman serves again, but Aryaman returns it and scores your team a point.");
+																alert("Your turn to serve.");
+																alert("What technque do you use for your serve?");
+																arshtechnique = prompt("The [Arshneet sidewinder], the [Traditional], or the [Daman Punch]?");
+																switch (arshtechnique)	{
+																	case "Daman Punch":
+																		alert("You try daman's serve.");
+																		alert("You can't pull it off.");
+																		alert("You have been shamed and must commit seppuku.");
+																		alert("GAME OVER");
+																		gameover == true;
+																		break;
+																	case "Traditional":
+																		alert("Arshneet? Doing traditional sports?");
+																		alert("Hah, good one.");
+																		alert("GAME OVER");
+																		gameover == true;
+																		break;
+																	case "Arshneet sidewinder":
+																		alert("You use your signature technique, and get a ball over the net.");
+																		alert("Doesn't matter though, you still lose.")
+																		alert("You head home after some more boring work periods.")
+																		
+																		
+																}	
+																		
+																		
+																	
+																}
+																
+															
+																
+															
 														gameover = true;
 														break;
 														}
