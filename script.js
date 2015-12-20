@@ -1,6 +1,5 @@
 var day = 0;
 var morning;
-/*var breakfast;*/
 var classmates;
 var homeroom;
 var warmup;
