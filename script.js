@@ -42,9 +42,6 @@ function arshsim() {
 						alert("You are at school. It was a boring bus ride.");
 						switch (day) {
 							case 1:
-								alert("You walk outside and wait about five minutes.");
-								alert("The bus arrives.");
-								alert("You are at school. It was a boring bus ride.");
 								alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
 								alert("You easily finish the math and do some work on your laptop.");
 								alert("RING RING RING!");
