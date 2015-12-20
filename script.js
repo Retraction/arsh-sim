@@ -12,7 +12,7 @@ var gameover = false;
 function arshsim() {
 	while (!gameover) {
 		day += 1;
-		alert("*Alarm rings*");
+		alert("*Alarm Rings*");
 		morning = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
 		switch (morning) {
 			case "sleep in":
