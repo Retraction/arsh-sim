@@ -5,6 +5,7 @@ var classmates;
 var homeroom;
 var warmup;
 var night;
+var damanserve;
 var gameover = false;
 function arshsim() {
 	while (!gameover) {
@@ -133,13 +134,22 @@ function arshsim() {
 														break;
 													case "no":
 														alert("Arash gives you a look for not laughing, but other than that you continue on to Period 3.");
+														alert("Gym again.");
+														alert("You do your warmup and help the teacher put out the volleyball net.");
+														alert("It's the other team's serve, and Daman throws his legendary overhand.");
+														alert("Do you..");
+														damanserve = prompt("[Try to return it], [Dodge out of the way] or [Stand in the way]?");
+														switch (damanserve)	{
+															case "Try to return it":
+																alert("You wish. This is daman's serve we're talking about.")
 														gameover = true;
 														break;
+														}
 												}
 												break;
 											case "work":
 												alert("You decide to actually work, like usual. Good.");
-												alert("Class flies by, and all of a sudden it's Period 3.");
+												alert("But, you're so boring, life has no meaning.");
 												gameover = true;
 												break;
 											case "play games":
