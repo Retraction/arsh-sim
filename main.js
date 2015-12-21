@@ -17,6 +17,7 @@ function arshsim() {
 		morning = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
 		switch (morning) {
 			case "sleep in":
+				breakfast = "nothing";
 				if (!gameover) {
 					alert("Your dad comes and wakes you up.");
 					alert("RUN RUN RUN");
