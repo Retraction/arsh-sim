@@ -1,9 +1,1 @@
-var sarshsim = document.createElement("script");
-var earshsim = document.createElement("button");
-var carshsim = document.getElementById("arshsim");
-sarshsim.type = "text/javascript";
-sarshsim.src = "https://355over113.github.io/arsh-sim/script.js";
-earshsim.onclick = function () {arshsim();};
-earshsim.innerHTML = "Play Arshneet Simulator";
-carshsim.appendChild(sarshsim);
-carshsim.appendChild(earshsim);
+var sarshsim=document.createElement("script");var earshsim=document.createElement("button");var larshsim=document.createElement("a");var carshsim=document.getElementById("arshsim");sarshsim.type="text/javascript";sarshsim.src="https://355over113.github.io/arsh-sim/script.js";earshsim.onclick=function(){arshsim();};earshsim.innerHTML="Play Arshneet Simulator";larshsim.href="https://github.com/355over113/arsh-sim/";larshsim.target="_blank";larshsim.innerHTML="Source";carshsim.appendChild(sarshsim);carshsim.appendChild(earshsim);carshsim.appendChild(document.createElement("br"));carshsim.appendChild(larshsim);
