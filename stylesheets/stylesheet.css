@@ -10,7 +10,7 @@ body {
     color: #606c71;
 }
 a {
-    color: #c21500;
+    color: #de3600;
     text-decoration: none;
 }
 a:hover {
@@ -127,7 +127,7 @@ a:hover {
     max-width: 100%;
 }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    margin-top: 2rem;
+    /*margin-top: 2rem;*/
     margin-bottom: 1rem;
     font-weight: normal;
     color: #f18900;
