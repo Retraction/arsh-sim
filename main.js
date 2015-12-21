@@ -66,11 +66,11 @@ function arshsim() {
 					alert("You walk inside the boys changeroom and quickly get dressed for gym.");
 					alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
 					alert("During the warmup, do you...");
-					warmup = prompt("[Skip a few laps] or [do it all]?").toLowerCase();
+					warmup = prompt("...[skip some laps] or [do it all]?").toLowerCase();
 					switch (warmup) {
-					case "skip a few laps":
+					case "skip some laps":
 						if (Math.random() < 0.75) {
-							alert("Your teacher notices and yells at you for cheating. You now have to do 700 more laps.");
+							alert("Your teacher notices and yells at you for cheating. You now have to do a hundred more laps.");
 							alert("GAME OVER");
 							gameover = true;
 						} else {
