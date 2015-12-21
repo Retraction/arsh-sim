@@ -15,7 +15,7 @@ Welcome to the GitHub repository for the Arshneet Simulator. This game was origi
 
 ## Embed
 
-If you want this game on your site, use this embed code:
+If you want this game on your site, use the following HTML:
 
 `<div id="arshsim"><script src="https://355over113.github.io/arsh-sim/embed"></script><noscript><button>Whoops! Your JavaScript's Not On.</button></noscript></div>`
 
