@@ -1,3 +1,3 @@
 window.onload = function () {
-	document.getElementById("play").onclick = arshsim;
+	document.getElementById("play").onclick = function(){arshsim();};
 }
