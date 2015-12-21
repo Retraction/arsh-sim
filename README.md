@@ -11,5 +11,6 @@ If you want to play the game [BETA] you can find it at http://355over113.github.
 - You get to play as Arshneet (obviously)
 - Randomizers deciding if you make it through certain events
 - Deaths that make almost no sense at all!
+- Personal attacks toward several characters based off of real people!
 
 P.S. This is both mine and Grinsanity's first large project, so if we're doing something wrong, feel free to help us out.
