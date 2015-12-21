@@ -12,7 +12,8 @@ var gameover = false;
 function arshsim() {
 	while (!gameover) {
 		day += 1;
-		alert("*Alarm Rings*");
+		alert("*alarm rings*");
+		alert("Day " + day);
 		morning = prompt("Would you like to [sleep in] or [wake up]?").toLowerCase();
 		switch (morning) {
 			case "sleep in":
@@ -59,7 +60,7 @@ function arshsim() {
 				case 1:
 					alert("You put your stuff in a shared locker with your best friend. You walk inside to see the first two periods are math: your favourie subject!");
 					alert("You easily finish the math and do some work on your laptop.");
-					alert("RING RING RING!");
+					alert("*bell rings*");
 					alert("Second period, gym!");
 					alert("You walk inside the boys changeroom and quickly get dressed for gym.");
 					alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
@@ -91,7 +92,7 @@ function arshsim() {
 						alert("The class plays a game of volleyball and you were the top player!");
 						alert("Just kidding, you suck at volleyball.");
 						alert("You go back and put your normal clothes back on.");
-						alert("RING RING RING!");
+						alert("*bell rings*");
 						alert("Ah, lunch time.");
 						alert("You eat your food and play outside.");
 						alert("The rest of the day goes on as usual, until you noticed the most hilarious thing.");
@@ -153,7 +154,7 @@ function arshsim() {
 								gameover = true;
 								break;
 							case "no":
-								alert("Arash gives you a look for not laughing, but other than that you continue on to third period.");
+								alert("Arash gives you a look for not laughing, but you still continue on to third period.");
 								break;
 							}
 							break;
