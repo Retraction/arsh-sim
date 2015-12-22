@@ -4,7 +4,7 @@
 	var larshsim = document.createElement("a");
 	var carshsim = document.getElementById("arshsim");
 	sarshsim.type = "text/javascript";
-	sarshsim.src = "https://355over113.github.io/arsh-sim/main.js";
+	sarshsim.src = "https://355over113.github.io/arsh-sim/scripts/main.js";
 	earshsim.onclick = function(){arshsim();};
 	earshsim.innerHTML = "Play Arshneet Simulator";
 	larshsim.href = "https://github.com/355over113/arsh-sim/";
