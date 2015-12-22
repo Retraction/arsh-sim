@@ -1,15 +1,14 @@
-var day = 0;
-var morning;
-var homeroom;
-var warmup;
-var classmate;
-var homeroom;
-var laugh;
-var damanserve;
-var arshserve;
-var sleep;
-var gameover = false;
 function arshsim() {
+	var day = 0;
+	var morning,
+		homeroom,
+		warmup,
+		classmate,
+		laugh,
+		damanserve,
+		arshserve,
+		sleep;
+	var gameover = false;
 	while (!gameover) {
 		day += 1;
 		alert("Day " + day);
@@ -66,11 +65,11 @@ function arshsim() {
 					alert("You walk inside the boys changeroom and quickly get dressed for gym.");
 					alert("\"LET'S GET INTO A LINE ON THE WALL! WE'RE DOING OUR WARMUP!\" says the gym teacher.");
 					alert("During the warmup, do you...");
-					warmup = prompt("[Skip a few laps] or [do it all]?").toLowerCase();
+					warmup = prompt("...[skip some laps] or [do it all]?").toLowerCase();
 					switch (warmup) {
-					case "skip a few laps":
+					case "skip some laps":
 						if (Math.random() < 0.75) {
-							alert("Your teacher notices and yells at you for cheating. You now have to do 700 more laps.");
+							alert("Your teacher notices and yells at you for cheating. You now have to do a hundred more laps.");
 							alert("GAME OVER");
 							gameover = true;
 						} else {
@@ -181,13 +180,13 @@ function arshsim() {
 							switch (damanserve) {
 							case "try to return it":
 								alert("You wish. This is Daman's serve we're talking about.");
-								alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+								alert("The ball dunks you with the force of 10,000 Shaquille O'Neals.");
 								alert("GAME OVER");
 								gameover = true;
 								break;
 							case "stand in the way":
 								alert("Well, that wasn't a smart decision.");
-								alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+								alert("The ball dunks you with the force of 10,000 Shaquille O'Neals.");
 								alert("GAME OVER");
 								gameover = true;
 								break;
@@ -264,6 +263,4 @@ function arshsim() {
 				}
 			}
 	}
-	gameover = false;
-	day = 0;
 }
