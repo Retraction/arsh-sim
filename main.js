@@ -181,13 +181,13 @@ function arshsim() {
 							switch (damanserve) {
 							case "try to return it":
 								alert("You wish. This is Daman's serve we're talking about.");
-								alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+								alert("The ball dunks you with the force of 10,000 Shaquille O'Neals.");
 								alert("GAME OVER");
 								gameover = true;
 								break;
 							case "stand in the way":
 								alert("Well, that wasn't a smart decision.");
-								alert("The ball dunks you with the force of 10,000 Shaqille O'Neals.");
+								alert("The ball dunks you with the force of 10,000 Shaquille O'Neals.");
 								alert("GAME OVER");
 								gameover = true;
 								break;
