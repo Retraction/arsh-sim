@@ -1,15 +1,14 @@
-var day = 0;
-var morning;
-var homeroom;
-var warmup;
-var classmate;
-var homeroom;
-var laugh;
-var damanserve;
-var arshserve;
-var sleep;
-var gameover = false;
 function arshsim() {
+	var day = 0;
+	var morning,
+		homeroom,
+		warmup,
+		classmate,
+		laugh,
+		damanserve,
+		arshserve,
+		sleep;
+	var gameover = false;
 	while (!gameover) {
 		day += 1;
 		alert("Day " + day);
@@ -264,6 +263,4 @@ function arshsim() {
 				}
 			}
 	}
-	gameover = false;
-	day = 0;
 }
