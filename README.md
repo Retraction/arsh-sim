@@ -25,4 +25,4 @@ The embedded version isn't styled allowing customization of the embedded element
 
 If you're here but not from IELC 2015-2016, you might miss some inside jokes.
 
-P.S. This is both mine and Grinsanity's first large project, so if we're doing something wrong, feel free to help us out.
+P.S. This is both mine and Maplesyrupman's first large project, so if we're doing something wrong, feel free to help us out.
