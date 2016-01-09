@@ -8,11 +8,15 @@ Welcome to the GitHub repository for the Arshneet Simulator. This game was origi
 
 - You get to play as Arshneet (obviously)
 - Randomizers deciding if you make it through certain events
-- Deaths that make almost no sense at all
+- Deaths that make almost no sense at all, and are VERY frequent
 - Personal attacks toward several characters based off of real people!
+- 
 
 - - -
 
+## How to play
+
+When prompted with a text box, type in one of the options shown in the brackets to progress.
 ## Embed
 
 If you want this game on your site, use the following HTML:
