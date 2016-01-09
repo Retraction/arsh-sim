@@ -1,22 +1,19 @@
 # Arshneet Simulator
 
-Welcome to the GitHub repository for the Arshneet Simulator. This game was originally created by a peer of ours. [Here's a link to his version.](https://4b4030124dae3ec07d9231fd34721a27e4e951d5.googledrive.com/host/0B8EmOAcQMuZbUnNmYTlBby1mOEU/)
-
-- - -
+Welcome to the GitHub repository for the Arshneet Simulator. This game was originally created by a peer of ours. [Here's a link to his version](https://4b4030124dae3ec07d9231fd34721a27e4e951d5.googledrive.com/host/0B8EmOAcQMuZbUnNmYTlBby1mOEU/).
 
 ## Features
 
 - You get to play as Arshneet (obviously)
 - Randomizers deciding if you make it through certain events
 - Deaths that make almost no sense at all, and are VERY frequent
+- Open-source. Don't like something? Fork the repository and change it (possibly get it into the game by opening a pull request)!
 - Personal attacks toward several characters based off of real people!
-- 
 
-- - -
+## How to Play
 
-## How to play
+When prompted with a text box, type in one of the options shown in the square brackets to progress. If you type in something other than the given, you'll exit the game and it'll reset (in the future, cookies will be used to save your progress automatically every in-game week).
 
-When prompted with a text box, type in one of the options shown in the brackets to progress.
 ## Embed
 
 If you want this game on your site, use the following HTML:
