@@ -1,4 +1,4 @@
-(function () {
+;(function () {
 	var sarshsim = document.createElement("script");
 	var earshsim = document.createElement("button");
 	var larshsim = document.createElement("a");
