@@ -1,6 +1,6 @@
 # Arshneet Simulator
 
-Welcome to the GitHub repository for the Arshneet Simulator. This game was originally created by a peer of ours. [Here's a link to his version](https://4b4030124dae3ec07d9231fd34721a27e4e951d5.googledrive.com/host/0B8EmOAcQMuZbUnNmYTlBby1mOEU/).
+Welcome to the GitHub repository for the Arshneet Simulator. This game was originally created by a peer of ours. [Here's a link to his outdated version](https://4b4030124dae3ec07d9231fd34721a27e4e951d5.googledrive.com/host/0B8EmOAcQMuZbUnNmYTlBby1mOEU/).
 
 ## Features
 
