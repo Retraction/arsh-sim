@@ -22,6 +22,10 @@ If you want this game on your site, use the following HTML:
 
 The embedded version isn't styled allowing customization of the embedded element.
 
+##License
+
+This project is licensed under the terms of the MIT License.	
+
 - - -
 
 If you're here but not from IELC 2015-2016, you might miss some inside jokes.
