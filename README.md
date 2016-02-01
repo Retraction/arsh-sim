@@ -8,6 +8,7 @@ Welcome to the GitHub repository for the Arshneet Simulator. This game was origi
 - Randomizers deciding if you make it through certain events
 - Deaths that make almost no sense at all, and are VERY frequent
 - Open-source. Don't like something? Fork the repository and change it (possibly get it into the game by opening a pull request)!
+- Day cycle
 - Personal attacks toward several characters based off of real people!
 
 ## How to Play
