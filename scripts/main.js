@@ -1,5 +1,6 @@
 function arshsim() {
 	var day = 0;
+	//place all variables here
 	var morning,
 		homeroom,
 		warmup,
@@ -7,7 +8,10 @@ function arshsim() {
 		laugh,
 		damanserve,
 		arshserve,
+		readbook,
+		frenchlaptop;
 		sleep;
+	//day cycle + gameover function here
 	var gameover = false;
 	while (!gameover) {
 		day++;
@@ -55,6 +59,7 @@ function arshsim() {
 			default:
 				gameover = true;
 		}
+		//Days here
 		if (!gameover) {
 			switch (day) {
 				case 1:
@@ -226,12 +231,45 @@ function arshsim() {
 					}
 					break;
 				case 3:
-					alert("This is when day three is supposed to happen, but since it hasn't been coded, well...");
+					alert("You arrive at school.");
+					alert("You have homeroom, then music, then french.");
+					alert("You have some time to read a book.");
+					readbook = prompt("What do you read?").toLowerCase();
+					if (readbook === "nothing") {
+						alert("You die of boredom before the 20 minutes are up.");
+						alert("GAME OVER");
+						gameover = true;
+						break;
+					} else {
+						alert("After enjoying "+ readbook +", you go down to music.");
+						alert("You have french after.");
+						alert("You realize you might need your laptop for french.");
+						alert("Do you..");
+						frenchlaptop = prompt("[Bring it] or [Leave it]?").toLowerCase();
+						if (frenchlaptop === "bring it") {
+							alert("You take your laptop with you to music class.");
+							alert("Since Jacob, who sits next to you, is away today, you put it on the chair next to you.");
+							alert("The strong allure of the laptop is too much for you.");
+							alert("You open it up and start playing minecraft...");
+							alert("Only to realize the msuic teacher was watching the whole time!");
+							alert("GAME OVER");
+							gameover = true;
+							break;
+						} else if (frenchlaptop === "leave it") {
+							alert("You leave it, telling yourself to deal with the repercussions later.")
+							alert('You walk to music, and play the bass.')
+							alert("Uh oh, time for french...")
+							alert("You walk into french. Ms Sheppard notices your lack of device and starts steaming at the ears.")
+							alert("What's your excuse?")
+							//TODO
+
+					}
 					alert("GAME OVER");
 					gameover = true;
 					break;
 				}
 			}
+			//post-day here
 			if (!gameover) {
 				alert("After eating dinner, do you...");
 				sleep = prompt("...[stay up] or [go to sleep]?").toLowerCase();
