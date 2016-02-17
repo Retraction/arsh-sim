@@ -95,16 +95,12 @@ function arshsim() {
 						alert("*bell rings*");
 						alert("Ah, lunch time.");
 						alert("You eat your food and play outside.");
-						alert("The rest of the day goes on as usual, until you noticed the most hilarious thing.");
-						alert("A girl called Ameeta steals tries taking a chair from Kulshan.");
-						alert("Kulshan fails to save his chair, so he takes a chair from a boy named Tejas.");
-						alert("Tejas pushes Kulshan off the chair, and gets his chair back.");
-						alert("At that moment, Kulshan knew, he was chairless.");
-						alert("When you went home, you watched some TV and played outside a bit.");
+						alert("The rest of the day goes on as usual.");
+						alert("You go home, you watched some TV and played outside a bit.");
 					}
 					break;
 				case 2:
-					alert("It's Halloween. You put on your brilliant costume, a fedora and call yourself Winston Churchill.");
+					alert("It's Halloween. You put on your brilliant costume, a fedora ,and call yourself Winston Churchill.");
 					classmate = prompt("As you walk to the school building, you see some of your classmates. [Cameron] the Demon, [Daman] the Schoolkid, [Connor] the Leprechaun, and [Harshan] the Zombie.\nDo you greet them or [ignore] them? If you did greet them, which one do you greet?").toLowerCase();
 					switch (classmate) {
 					case "daman":
@@ -256,7 +252,7 @@ function arshsim() {
 					}
 					break;
 				case "go to sleep":
-					alert("You brush you bathe, brush your teeth, and finally lie down in bed after a long day.");
+					alert("You bathe, brush your teeth, and finally lie down in bed after a long day.");
 					break;
 				default:
 					gameover = true;
