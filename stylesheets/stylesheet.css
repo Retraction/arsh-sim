@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+        font-family: 'Open Sans', sans-serif;
+}
 body {
     padding: 0;
     margin: 0;
