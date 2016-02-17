@@ -100,7 +100,7 @@ function arshsim() {
 					}
 					break;
 				case 2:
-					alert("It's Halloween. You put on your brilliant costume, a fedora ,and call yourself Winston Churchill.");
+					alert("It's Halloween. You put on your brilliant costume, a fedora, and call yourself Winston Churchill.");
 					classmate = prompt("As you walk to the school building, you see some of your classmates. [Cameron] the Demon, [Daman] the Schoolkid, [Connor] the Leprechaun, and [Harshan] the Zombie.\nDo you greet them or [ignore] them? If you did greet them, which one do you greet?").toLowerCase();
 					switch (classmate) {
 					case "daman":
