@@ -234,7 +234,7 @@ function arshsim () {
 					break;
 				case 3:
 					alert("You arrive at school.");
-					alert("You have homeroom, then music, then french.");
+					alert("You have homeroom, then music, then French.");
 					alert("You have some time to read a book.");
 					readbook = prompt("What do you read?").toLowerCase();
 					if (readbook === "nothing") {
@@ -244,16 +244,16 @@ function arshsim () {
 						break;
 					} else {
 						alert("After enjoying " + readbook + ", you go down to music.");
-						alert("You have french after.");
-						alert("You realize you might need your laptop for french.");
-						alert("Do you..");
-						frenchlaptop = prompt("[Bring it] or [Leave it]?").toLowerCase();
+						alert("You have French after.");
+						alert("You realize you might need your laptop for French.");
+						alert("Do you...");
+						frenchlaptop = prompt("...[bring it] or [Leave it]?").toLowerCase();
 						if (frenchlaptop === "bring it") {
 							alert("You take your laptop with you to music class.");
 							alert("Since Jacob, who sits next to you, is away today, you put it on the chair next to you.");
 							alert("The strong allure of the laptop is too much for you.");
 							alert("You open it up and start playing minecraft...");
-							alert("Only to realize the msuic teacher was watching the whole time!");
+							alert("...only to realize the music teacher was watching the whole time!");
 							alert("GAME OVER");
 							gameover = true;
 							break;
@@ -261,8 +261,9 @@ function arshsim () {
 							alert("You leave it, telling yourself to deal with the repercussions later.");
 							alert('You walk to music, and play the bass.');
 							alert("Uh oh, time for French...");
-							alert("You walk into french. Ms Sheppard notices your lack of device and starts steaming at the ears.");
+							alert("You walk into French. Ms Sheppard notices your lack of device and starts steaming at the ears.");
 							alert("What's your excuse?");
+							gameover = true;
 							//TODO
 						}
 					}
