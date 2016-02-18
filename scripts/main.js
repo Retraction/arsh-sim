@@ -275,7 +275,7 @@ function arshsim () {
 									alert("You then get an N on your learning skills.");
 									alert("Your parents get mad.");
 									alert("GAME OVER");
-									gameover = true
+									gameover = true;
 									break;
 								case "forgot":
 									alert("You say you forgot.");
@@ -283,7 +283,7 @@ function arshsim () {
 									alert("You then get an N on your learning skills.");
 									alert("Your parents get mad.");
 									alert("GAME OVER");
-									gameover = true
+									gameover = true;
 									break;
 								case "didn't think you needed it":
 									alert("You say you didn't think you needed it.");
@@ -291,8 +291,8 @@ function arshsim () {
 									alert("You continue on your way.");
 									alert("Final class of the day, Drama.");
 									alert("You are picked for improv.");
-									alert("Who do you choose as your group partner?")
-									dramapartner = prompt("[Harshan], [Desmond], or [Daman]?").toLowerCase
+									alert("Who do you choose as your group partner?");
+                  dramapartner = prompt("[Harshan], [Desmond], or [Daman]?").toLowerCase();
 									switch (dramapartner)	{
 										case "daman":
 											alert("You choose daman.");
@@ -325,7 +325,7 @@ function arshsim () {
 
 							}
 							break;
-						default:
+            }
 							gameover = true;
 
 						}
