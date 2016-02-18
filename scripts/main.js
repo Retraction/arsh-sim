@@ -12,6 +12,7 @@ function arshsim () {
 		readbook,
 		frenchlaptop,
 		frenchexcuse,
+		dramapartner,
 		sleep;
 	// Everything else
 	var gameover = false;
@@ -274,7 +275,7 @@ function arshsim () {
 									alert("You then get an N on your learning skills.");
 									alert("Your parents get mad.");
 									alert("GAME OVER");
-									gameover = true
+									gameover = true;
 									break;
 								case "forgot":
 									alert("You say you forgot.");
@@ -282,14 +283,43 @@ function arshsim () {
 									alert("You then get an N on your learning skills.");
 									alert("Your parents get mad.");
 									alert("GAME OVER");
-									gameover = true
+									gameover = true;
 									break;
 								case "didn't think you needed it":
 									alert("You say you didn't think you needed it.");
 									alert("She then commends you on being responsible enough to not have to take your laptop everywhere.");
 									alert("You continue on your way.");
 									alert("Final class of the day, Drama.");
-									alert("")
+									alert("You're picked for improv.");
+									alert("Who do you choose as your group partner?");
+									dramapartner = prompt("[Daman], [Harshan], or [Desmond]?");
+									switch (dramapartner) {
+										case "daman":
+										    alert("You choose daman.");
+										    alert("You come up with a decent, not good but not bad, presentation.");
+										    alert("Suddenly, harshan trips.");
+										    alert("Daman bends over and says to him...");
+										    alert("Tu est rekter.");
+										    alert("He dies laughing.");
+										    alert("The teacher gets mad at both of you for fooling around.");
+										    alert("GAME OVER");
+										    gameover = true;
+										    break;
+										case "harshan":
+										    alert("Really? What do you expect at this point?");
+										    alert("He faints.");
+										    alert("You get an F");
+										    alert("GAME OVER");
+										    gameover = true;
+										    break;
+										case "desmond":
+										    alert("I don't know why, but you picked desmond.");
+										    alert("Being himself, he screws around and gets you guys an F.");
+										    alert("The teacher feels bad for you and you get a B.");
+										    alert("Mission accomplished!");
+										    alert("You go home for the day.");
+									}
+
 									//TODO
 							}
 							gameover = true;
