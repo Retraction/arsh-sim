@@ -267,27 +267,28 @@ function arshsim () {
 							frenchexcuse = prompt("[Battery's dead], [Forgot], or [Didn't think you needed it]").toLowerCase();
 							switch (frenchexcuse)	{
 								case "battery's dead":
-									alert("You tell her that the battery is dead.")
-									alert("She asks why you didn't charge it.")
-									alert("You say you forgot.")
-									alert("She says okay, and continues on with class seemingly like normal.")
-									alert("You then get an N on your learning skills.")
-									alert("Your parents get mad.")
-									alert("GAME OVER")
+									alert("You tell her that the battery is dead.");
+									alert("She asks why you didn't charge it.");
+									alert("You say you forgot.");
+									alert("She says okay, and continues on with class seemingly like normal.");
+									alert("You then get an N on your learning skills.");
+									alert("Your parents get mad.");
+									alert("GAME OVER");
 									gameover = true
 									break;
 								case "forgot":
-									alert("You say you forgot.")
-									alert("She says okay, and continues on with class seemingly like normal.")
-									alert("You then get an N on your learning skills.")
-									alert("Your parents get mad.")
-									alert("GAME OVER")
+									alert("You say you forgot.");
+									alert("She says okay, and continues on with class seemingly like normal.");
+									alert("You then get an N on your learning skills.");
+									alert("Your parents get mad.");
+									alert("GAME OVER");
 									gameover = true
 									break;
 								case "didn't think you needed it":
-									alert("You say you didn't think you needed it.")
-									alert("She then commends you on being responsible enough to not have to take your laptop everywhere.")
-									alert("You continue on your way.")
+									alert("You say you didn't think you needed it.");
+									alert("She then commends you on being responsible enough to not have to take your laptop everywhere.");
+									alert("You continue on your way.");
+									alert("Final class of the day, Drama.");
 									alert("")
 									//TODO
 							}
