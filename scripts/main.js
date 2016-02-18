@@ -1,6 +1,6 @@
 function arshsim () {
 	var day = 0;
-	// All variables declared
+	// All events declared
 	var morning,
 		breakfast,
 		homeroom,
