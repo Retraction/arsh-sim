@@ -305,10 +305,27 @@ function arshsim () {
 											alert("GAME OVER");
 											gameover = true;
 											break;
+										case "harshan":
+											alert("Really? What do you expect at this point?");
+											alert("He faints.");
+											alert("You get an F");
+											alert("GAME OVER");
+											gameover = true;
+											break;
+										case "desmond":
+											alert("I don't know why, but you picked desmond.");
+											alert("Being himself, he screws around and gets you guys an F.");
+											alert("The teacher feels bad for you and you get a B.");
+											alert("Mission accomplished!");
+											alert("You go home for the day.");
 									}
+								    break;
+								default:
+									gameover = true;
 
-									//TODO
 							}
+							break;
+						default:
 							gameover = true;
 
 						}
