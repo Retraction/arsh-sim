@@ -7,9 +7,10 @@ Welcome to the GitHub repository for the Arshneet Simulator. This game was origi
 - You get to play as Arshneet (obviously)
 - Randomizers deciding if you make it through certain events
 - Deaths that make almost no sense at all, and are VERY frequent
-- Open-source. Don't like something? Fork the repository and change it (possibly get it into the game by opening a pull request)!
+- Open-source: contribute to your favourite game or make it your own!!
 - Day cycle
 - Personal attacks toward several characters based off of real people!
+- Unplayable if you tick that option on the dialogue box that says "Disable alerts from this webpage"!
 
 ## How to Play
 
