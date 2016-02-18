@@ -12,6 +12,7 @@ function arshsim () {
 		readbook,
 		frenchlaptop,
 		frenchexcuse,
+		dramapartner,
 		sleep;
 	// Everything else
 	var gameover = false;
@@ -289,7 +290,23 @@ function arshsim () {
 									alert("She then commends you on being responsible enough to not have to take your laptop everywhere.");
 									alert("You continue on your way.");
 									alert("Final class of the day, Drama.");
-									alert("")
+									alert("You are picked for improv.");
+									alert("Who do you choose as your group partner?")
+									dramapartner = prompt("[Harshan], [Desmond], or [Daman]?").toLowerCase
+									switch (dramapartner)	{
+										case "daman":
+											alert("You choose daman.");
+											alert("You come up with a decent, not good but not bad, presentation.");
+											alert("Suddenly, harshan trips.");
+											alert("Daman bends over and says to him...");
+											alert("Tu est rekter.");
+											alert("He dies laughing.");
+											alert("The teacher gets mad at both of you for fooling around.");
+											alert("GAME OVER");
+											gameover = true;
+											break;
+									}
+
 									//TODO
 							}
 							gameover = true;
