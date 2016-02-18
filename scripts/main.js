@@ -1,6 +1,6 @@
 function arshsim () {
 	var day = 0;
-	// All events declared
+	// All variables declared
 	var morning,
 		breakfast,
 		homeroom,
@@ -290,7 +290,6 @@ function arshsim () {
 									alert("She then commends you on being responsible enough to not have to take your laptop everywhere.");
 									alert("You continue on your way.");
 									alert("Final class of the day, Drama.");
-<<<<<<< HEAD
 									alert("You're picked for improv.");
 									alert("Who do you choose as your group partner?");
 									dramapartner = prompt("[Daman], [Harshan], or [Desmond]?");
@@ -322,44 +321,7 @@ function arshsim () {
 									}
 
 									//TODO
-=======
-									alert("You are picked for improv.");
-									alert("Who do you choose as your group partner?");
-                  dramapartner = prompt("[Harshan], [Desmond], or [Daman]?").toLowerCase();
-									switch (dramapartner)	{
-										case "daman":
-											alert("You choose daman.");
-											alert("You come up with a decent, not good but not bad, presentation.");
-											alert("Suddenly, harshan trips.");
-											alert("Daman bends over and says to him...");
-											alert("Tu est rekter.");
-											alert("He dies laughing.");
-											alert("The teacher gets mad at both of you for fooling around.");
-											alert("GAME OVER");
-											gameover = true;
-											break;
-										case "harshan":
-											alert("Really? What do you expect at this point?");
-											alert("He faints.");
-											alert("You get an F");
-											alert("GAME OVER");
-											gameover = true;
-											break;
-										case "desmond":
-											alert("I don't know why, but you picked desmond.");
-											alert("Being himself, he screws around and gets you guys an F.");
-											alert("The teacher feels bad for you and you get a B.");
-											alert("Mission accomplished!");
-											alert("You go home for the day.");
-									}
-								    break;
-								default:
-									gameover = true;
-
->>>>>>> 24ee669de0679fdef0fe3ed4c523590cb404d9de
 							}
-							break;
-            }
 							gameover = true;
 
 						}
