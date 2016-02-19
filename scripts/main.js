@@ -341,6 +341,7 @@ function arshsim () {
 					while (!gameover) {
 						alert("You hear your mother coming.");
 						if (Math.random() < 0.75) {
+							//NYEH HEH HEH
 							alert("You pretend to sleep.");
 							alert("Your mother passes by without blinking an eye. You continue to play video games.");
 						} else {
