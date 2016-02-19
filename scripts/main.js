@@ -12,6 +12,7 @@ function arshsim() {
 		frenchlaptop,
 		frenchexcuse,
 		dramapartner,
+		day4homeroom,
 		sleep;
 	var gameover = false;
 	while (!gameover) {
@@ -326,7 +327,13 @@ function arshsim() {
 					//Day 4
                     alert("Welcome to school.");
 					alert("You have 3 periods of work time. What do you do?");
-					alert("Do you...")
+					alert("Do you...");
+					day4homeroom = prompt("[Code], [Play games], or [Screw around?]").toLowerCase();
+					switch (day4homeroom)	{
+						case "code":
+							alert("");
+					}//TODO
+
 
 					gameover = true;
 					break;
