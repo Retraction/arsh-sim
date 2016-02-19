@@ -1,6 +1,18 @@
 function arshsim() {
 	var day = 0;
-	var morning, breakfast, homeroom, warmup, classmate, laugh, damanserve, arshserve, readbook, frenchlaptop, frenchexcuse, dramapartner, sleep;
+	var morning,
+		breakfast,
+		homeroom,
+		warmup,
+		classmate,
+		laugh,
+		damanserve,
+		arshserve,
+		readbook,
+		frenchlaptop,
+		frenchexcuse,
+		dramapartner,
+		sleep;
 	var gameover = false;
 	while (!gameover) {
 		day++;
@@ -311,30 +323,18 @@ function arshsim() {
 					gameover = true;
 					break;
 				case 4:
-					// Your code goes here
+					//Day 4
+                    alert("Welcome to school.");
+					alert("You have 3 periods of work time. What do you do?");
+					alert("Do you...")
+
 					gameover = true;
-					//         ^
-					//         |
-					// remove that before you start
 					break;
 			}
 			if (!gameover) {
 				alert("After eating dinner, do you...");
 				sleep = prompt("...[stay up] or [go to sleep]?").toLowerCase();
 				switch (sleep) {
-				case "stay up":
-					alert("You stay up and play video games.");
-					while (!gameover) {
-						alert("You hear your mother coming.");
-						if (Math.random() < 0.75) {
-							//NYEH HEH HEH
-							alert("You pretend to sleep.");
-							alert("Your mother passes by without blinking an eye. You continue to play video games.");
-						} else {
-							alert("Your mother came before you could pretend to sleep.");
-							alert("You get caught (obviously).");
-							alert("GAME OVER");
-							gameover = true;
 					case "stay up":
 						alert("You stay up and play video games.");
 						while (!gameover) {
