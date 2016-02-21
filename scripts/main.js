@@ -1,5 +1,9 @@
 function arshsim() {
-	var day = 0;
+	// Runs game code
+	var day = 0, gameover = false;
+	// Player health
+	var hunger;
+	// List of events
 	var morning,
 		breakfast,
 		homeroom,
@@ -14,7 +18,6 @@ function arshsim() {
 		dramapartner,
 		day4homeroom,
 		sleep;
-	var gameover = false;
 	while (!gameover) {
 		day++;
 		alert("Day " + day);
@@ -242,16 +245,16 @@ function arshsim() {
 						gameover = true;
 						break;
 					} else {
-						alert("After enjoying " + readbook + ", you go down to music.");
+						alert("After enjoying " + ((readbook === '') ? 'absolutely nothing' : readbook) + ", you go down to music.");
 						alert("You have French after.");
 						alert("You realize you might need your laptop for French.");
 						alert("Do you...");
-						frenchlaptop = prompt("...[bring it] or [Leave it]?").toLowerCase();
+						frenchlaptop = prompt("...[bring it] or [leave it]?").toLowerCase();
 						if (frenchlaptop === "bring it") {
 							alert("You take your laptop with you to music class.");
 							alert("Since Jacob, who sits next to you, is away today, you put it on the chair next to you.");
 							alert("The strong allure of the laptop is too much for you.");
-							alert("You open it up and start playing minecraft...");
+							alert("You open it up and start playing Minecraft...");
 							alert("...only to realize the music teacher was watching the whole time!");
 							alert("GAME OVER");
 							gameover = true;
@@ -261,8 +264,8 @@ function arshsim() {
 							alert('You walk to music, and play the bass.');
 							alert("Uh oh, time for French...");
 							alert("You walk into French. Ms Sheppard notices your lack of device and starts steaming at the ears.");
-							alert("What's your excuse?");
-							frenchexcuse = prompt("[Battery's dead], [Forgot], or [Didn't think you needed it]").toLowerCase();
+							alert("What's your excuse:");
+							frenchexcuse = prompt("[Battery's dead], [forgot], or [didn't think you needed it]?").toLowerCase();
 							switch (frenchexcuse) {
 								case "battery's dead":
 									alert("You tell her that the battery is dead.");
@@ -316,25 +319,29 @@ function arshsim() {
 											alert("Mission accomplished!");
 											alert("You go home for the day.");
 									}
+									break;
 							}
-							gameover = true;
 						}
 					}
-					alert("GAME OVER");
-					gameover = true;
 					break;
 				case 4:
-					//Day 4
                     alert("Welcome to school.");
 					alert("You have 3 periods of work time. What do you do?");
 					alert("Do you...");
-					day4homeroom = prompt("[Code], [Play games], or [Screw around?]").toLowerCase();
+					day4homeroom = prompt("...[code], [play games], or [screw around?]").toLowerCase();
 					switch (day4homeroom)	{
 						case "code":
 							alert("");
-					}//TODO
-
-
+							break;
+						case "play games":
+							alert("");
+							break;
+						case "screw around":
+							alert("");
+							break;
+						default:
+							gameover = true;
+					}
 					gameover = true;
 					break;
 			}
