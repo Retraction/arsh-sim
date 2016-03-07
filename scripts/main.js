@@ -1,8 +1,22 @@
-function arshsim() {
+function arshsim () {
 	// Runs game code
 	var day = 0, gameover = false;
 	// Player health
-	var hunger;
+	var health = {
+		fat: 50,
+		stress: 0,
+		hunger: 0,
+		thirst: 0,
+		damage: 0,
+		fatigue: 0,
+		happiness: 100
+	};
+	// Player stats
+	var stats = {
+		speed: 1,
+		strength: 1,
+		intelligence: 5
+	};
 	// List of events
 	var morning,
 		breakfast,
