@@ -4,6 +4,7 @@ window.onload = function () {
 		play = document.createElement('a'),
 		header = document.getElementsByClassName('page-header')[0];
 	beta.innerHTML = 'BETA';
+	play.href = '#';
 	play.className = 'btn';
 	play.innerHTML = 'Play Game';
 	play.onclick = function () {
