@@ -1,4 +1,4 @@
-// This makes adds play button.
+// This adds the play button.
 window.onload = function () {
 	var beta = document.createElement('sup'),
 		play = document.createElement('a'),
