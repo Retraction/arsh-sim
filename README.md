@@ -24,7 +24,7 @@ If you want this game on your site, use the following HTML:
 <script src="https://retraction.github.io/arsh-sim/embed.js" class="arshsim"></script>
 ```
 
-The embedded version isn't styled allowing customization of the embedded element.
+This version isn't heavily styled allowing customization of the embedded element.
 
 ## License
 
@@ -34,4 +34,4 @@ This project is under the MIT License.
 
 If you're here but not from IELC 2015-2016, you might miss some inside jokes.
 
-P.S. This is both [mine](https://github.com/Loquacious) (Ryan Nguyen) and [Damanjit Gill](https://www.github.com/Bergenfrundt)'s first large project so if we're doing something wrong, feel free to help us out.
+P.S. This is both mine ([Ryan Nguyen](https://github.com/Loquacious)) and [Damanjit Gill](https://github.com/Bergenfrundt)'s first large project so if we're doing something wrong, feel free to help us out.
