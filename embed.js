@@ -1,18 +1,33 @@
-;(function () {
-	var sarshsim = document.createElement("script");
-	var earshsim = document.createElement("button");
-	var larshsim = document.createElement("a");
-	var carshsim = document.getElementById("arshsim");
-	sarshsim.type = "text/javascript";
-	sarshsim.src = "https://355over113.github.io/arsh-sim/scripts/main.js";
-	earshsim.onclick = function(){arshsim();};
-	earshsim.innerHTML = "Play Arshneet Simulator";
-	larshsim.href = "https://github.com/355over113/arsh-sim/";
-	earshsim.style = "cursor:hand;cursor:pointer";
-	larshsim.target = "_blank";
-	larshsim.innerHTML = "Source";
-	carshsim.appendChild(sarshsim);
-	carshsim.appendChild(earshsim);
-	carshsim.appendChild(document.createElement("br"));
-	carshsim.appendChild(larshsim);
-})();
+;(function (d) {
+	'use strict';
+	var asim = {
+		div: d.createElement('div'),
+		css: d.createElement('link'),
+		scr: d.createElement('script'),
+		btn: d.createElement('a'),
+		brk: d.createElement('br'),
+		src: d.createElement('a'),
+		ogn: d.getElementsByClassName('arshsim')[0]
+	};
+	asim.css.rel = 'stylesheet';
+	asim.css.type = 'text/css';
+	asim.css.href = 'https://retraction.github.io/arsh-sim/embed.css';
+	asim.scr.src = 'https://retraction.github.io/arsh-sim/scripts/main.js';
+	asim.btn.href = '#';
+	asim.btn.className = 'btn';
+	asim.btn.onclick = function() {
+		arshsim();
+		return false;
+	};
+	asim.btn.innerText = 'Play Arshneet Simulator';
+	asim.src.href = 'https://github.com/Retraction/arsh-sim';
+	asim.src.target = '_blank';
+	asim.src.innerText = 'Source';
+	asim.div.className = 'arshsim';
+	asim.div.appendChild(asim.css);
+	asim.div.appendChild(asim.scr);
+	asim.div.appendChild(asim.btn);
+	asim.div.appendChild(asim.brk);
+	asim.div.appendChild(asim.src);
+	asim.ogn.parentNode.replaceChild(asim.div, asim.ogn);
+})(document);

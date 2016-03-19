@@ -20,16 +20,18 @@ When prompted with a text field, type in one of the options shown in the square 
 
 If you want this game on your site, use the following HTML:
 
-	<div id="arshsim"><script src="https://loquacious.github.io/arsh-sim/embed.js"></script><noscript><button>Whoops! Your JavaScript's Not On.</button></noscript></div>
+```html
+<script src="https://retraction.github.io/arsh-sim/embed.js" class="arshsim"></script>
+```
 
 The embedded version isn't styled allowing customization of the embedded element.
 
-##License
+## License
 
-This project is licensed under the terms of the MIT License.
+This project is under the MIT License.
 
-- - -
+---
 
 If you're here but not from IELC 2015-2016, you might miss some inside jokes.
 
-P.S. This is both mine and [Bergenfrundt](https://www.github.com/Bergenfrundt)'s first large project, so if we're doing something wrong, feel free to help us out.
+P.S. This is both [mine](https://github.com/Loquacious) (Ryan Nguyen) and [Damanjit Gill](https://www.github.com/Bergenfrundt)'s first large project so if we're doing something wrong, feel free to help us out.

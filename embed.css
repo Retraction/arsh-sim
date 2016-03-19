@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.arshsim {
+	font-family: "Open Sans", sans-serif;
+	border-radius: 0.3rem;
+	width: auto;
+	text-align: center;
+	display: inline-block;
+}
+.arshsim a {
+	color: #0071cf;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+.arshsim a:hover {
+	color: #00a6ff;
+}
+.arshsim .btn {
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.08);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+	padding: 1rem;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 0.5rem;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+.arshsim .btn:hover {
+	color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.15);
+	border-color: rgba(0, 0, 0, 0.3);
+}
