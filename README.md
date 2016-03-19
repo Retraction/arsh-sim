@@ -32,4 +32,4 @@ This project is under the MIT License.
 
 If you're here but not from IELC 2015-2016, you might miss some inside jokes.
 
-P.S. This is both [mine](https://github.com/Loquacious) and [Bergenfrundt](https://www.github.com/Bergenfrundt)'s first large project, so if we're doing something wrong, feel free to help us out.
+P.S. This is both [Loquacious'](https://github.com/Loquacious) and [Bergenfrundt](https://www.github.com/Bergenfrundt)'s first large project, so if we're doing something wrong, feel free to help us out.
