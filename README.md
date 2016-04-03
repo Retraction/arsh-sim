@@ -26,6 +26,18 @@ If you want this game on your site, use the following HTML:
 
 This version isn't heavily styled allowing customization of the embedded element.
 
+You can check the `embed.css` file to see how it's currently styled. For easy styling, here's the HTML after it's constructed with the JavaScript:
+
+```html
+<div class="arsh-sim">
+	<link rel="stylesheet" type="text/css" href="https://retraction.github.io/arsh-sim/embed.css">
+	<script src="https://retraction.github.io/arsh-sim/scripts/main.js"></script>
+	<a href="#" class="btn">Play Arshneet Simulator</a>
+	<br>
+	<a href="https://github.com/Retraction/arsh-sim" target="_blank">Source</a>
+</div>
+```
+
 ## License
 
 This project is under the MIT License.

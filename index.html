@@ -7,6 +7,11 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+		<!-- highlight.js start -->
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+		<!-- highlight.js end -->
 		<script src="scripts/main.js"></script>
 		<script src="scripts/controller.js"></script>
 	</head>
@@ -34,8 +39,16 @@
 			<hr>
 			<h2>Embed</h2>
 			<p>If you want this game on your site, use the following HTML:</p>
-			<pre><code>&lt;<span class="pl-k">script</span> src=<span class="pl-s">"https://retraction.github.io/arsh-sim/embed.js"</span> class=<span class="pl-s">"arshsim"</span>>&lt;/<span class="pl-k">script</span>></code></pre>
+			<pre><code>&lt;script src="https://retraction.github.io/arsh-sim/embed.js" class="arshsim">&lt;/script></code></pre>
 			<p>This version isn't heavily styled allowing customization of the embedded element.</p>
+			<p>You can check the `embed.css` file to see how it's currently styled. For easy styling, here's the HTML after it's constructed with the JavaScript: </p>
+			<pre class="highlight"><code>&lt;div class="arsh-sim">
+	&lt;link rel="stylesheet" type="text/css" href="https://retraction.github.io/arsh-sim/embed.css">
+	&lt;script src="https://retraction.github.io/arsh-sim/scripts/main.js">&lt;/script>
+	&lt;a href="#" class="btn">Play Arshneet Simulator&lt;/a>
+	&lt;br>
+	&lt;a href="https://github.com/Retraction/arsh-sim" target="_blank">Source&lt;/a>
+&lt;/div></code></pre>
 			<hr>
 			<p>Creator: <a href="https://github.com/bowser0000/">Brahmjot Grewal</a><br>
 			Main Writer: <a href="https://github.com/Bergenfrundt/">Damanjit Gill</a></p>
