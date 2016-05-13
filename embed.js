@@ -24,7 +24,10 @@
 
 	asim.btn.href = '#';
 	asim.btn.className = 'btn';
-	asim.btn.onclick = arshsim;
+	asim.btn.onclick = function () {
+		arshsim();
+		return false;
+	};
 	asim.btn.innerText = 'Play Arshneet Simulator';
 
 	asim.src.href = 'https://github.com/Retraction/arsh-sim';
