@@ -468,4 +468,5 @@ function arshsim() {
 			}
 		}
 	}
+	return false;
 }
