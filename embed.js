@@ -42,7 +42,6 @@
 	asim.div.appendChild(asim.css);
 	asim.div.appendChild(asim.scr);
 	asim.div.appendChild(asim.bnc);
-	asim.div.appendChild(asim.brk);
 	asim.div.appendChild(asim.src);
 
 	asim.ogn.parentNode.replaceChild(asim.div, asim.ogn);
