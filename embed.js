@@ -22,7 +22,7 @@
 
 	asim.scr.src = 'https://retraction.github.io/arsh-sim/scripts/main.js';
 
-	asim.bcn.className = 'container';
+	asim.bnc.className = 'container';
 	asim.bnc.appendChild(asim.btn);
 
 	asim.btn.href = '#';
