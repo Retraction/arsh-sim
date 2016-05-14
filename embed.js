@@ -6,8 +6,8 @@
 		fnt: d.createElement('link'),
 		css: d.createElement('link'),
 		scr: d.createElement('script'),
+		bnc: d.createElement('div'),
 		btn: d.createElement('a'),
-		brk: d.createElement('br'),
 		src: d.createElement('a'),
 		ogn: d.getElementsByClassName('arshsim')[0]
 	};
@@ -21,6 +21,9 @@
 	asim.css.href = 'https://retraction.github.io/arsh-sim/embed.css';
 
 	asim.scr.src = 'https://retraction.github.io/arsh-sim/scripts/main.js';
+
+	asim.bcn.className = 'container';
+	asim.bnc.appendChild(asim.btn);
 
 	asim.btn.href = '#';
 	asim.btn.className = 'btn';
@@ -38,7 +41,7 @@
 	asim.div.appendChild(asim.fnt);
 	asim.div.appendChild(asim.css);
 	asim.div.appendChild(asim.scr);
-	asim.div.appendChild(asim.btn);
+	asim.div.appendChild(asim.bnc);
 	asim.div.appendChild(asim.brk);
 	asim.div.appendChild(asim.src);
 
