@@ -6,12 +6,12 @@
 	display: inline-block;
 }
 .arshsim a {
-	color: #0071cf;
+	color: #00a6ff;
 	text-decoration: none;
 	transition: color 0.3s;
 }
 .arshsim a:hover {
-	color: #00a6ff;
+	color: #0071cf;
 }
 .arshsim .btn {
 	display: inline-block;
